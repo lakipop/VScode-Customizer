@@ -1,0 +1,218 @@
+/* Color.css */
+p{
+    color: rgba(245, 245, 245, 0.821);
+}
+
+/* normal text */
+.mtk1 { color: #d2ffd4d7; }
+
+/* Strings - Fresh Grass Green */
+.mtk2 { color: #91fb95; }
+
+/* Sage Green with mild opacity */
+.mtk3 { color: rgba(139, 195, 74, 0.8); }
+
+/* Numbers - Warm Oak Brown */
+.mtk4 { color: #8D6E63; }
+
+/* comments*/
+.mtk5 { color: #aaaaaac4; }
+
+
+.mtk6 {
+    color: #e538ff;
+}
+
+.mtk17 {
+    color: #ff8229f9;
+}
+.mtk13 {
+    color: #64e3ff;
+}
+.mtk14 { 
+    color:rgba(109, 255, 69, 0.822)
+}
+.mtk25 {
+    color: #6568ff;
+}
+.mtk16 {
+    color: #e538ff
+}
+
+.mtk10 {
+    color:#64e3ff;
+}
+.mtk11 {
+    color: #fff045f9;
+}
+.mtk9 {
+    color: #fff158f3;
+}
+.mtk7 {
+    color:rgba(230, 230, 230, 0.885);
+}
+
+/* Your existing Monaco decoration styles (keep these) */
+.monaco-decoration-itemColor--ec98p9 {
+    color: #9cff1bdf;
+}
+.monaco-decoration-itemBadge--ec98p9::after {
+    content: "U";
+    color: #6aff00e0;
+}
+.monaco-decoration-itemColor--ew9twd {
+    color: #41ff7ddb;
+}
+.monaco-decoration-itemColor-kkyaq5 {
+    color: #f3ff45e1;
+}
+.monaco-decoration-itemBadge-kkyaq5::after {
+    content: "M";
+    color: #f3b64cf8;
+}
+.monaco-decoration-bubbleBadge--p0w8yl::after {
+    content: "";
+    color: #f3b64cf8;
+    font-family: codicon;
+    font-size: 14px;
+    margin-right: 14px;
+    opacity: 0.4;
+}
+.monaco-decoration-itemColor--hkk8zx {
+    color: #09f056ed;
+}
+.monaco-decoration-itemColor--xodzlv {
+    color: #11ea59;
+}
+
+/* Your existing editor styles (keep these) */
+.monaco-editor .codelens-decoration {
+    color: #93d200c0;
+    color: var(--vscode-editorCodeLens-foreground);
+    display: inline-block;
+    font-family: var(--vscode-editorCodeLens-fontFamily), var(--vscode-editorCodeLens-fontFamilyDefault);
+    font-feature-settings: var(--vscode-editorCodeLens-fontFeatureSettings);
+    font-size: var(--vscode-editorCodeLens-fontSize);
+    line-height: var(--vscode-editorCodeLens-lineHeight);
+    overflow: hidden;
+    padding-right: calc(var(--vscode-editorCodeLens-fontSize)* .5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.margin-view-overlays {
+    position: absolute;
+    font-family: roboto, Consolas, "Courier New", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    font-feature-settings: "liga", "calt";
+    font-variation-settings: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    width: 41px;
+    height: 1062px;
+}
+
+.monaco-editor .margin {
+    background-color: var(--vscode-editorGutter-background);
+    font-size: 12px;
+    font-family: roboto, Consolas, "Courier New", monospace;
+    font-weight: 400;
+    width: 41px;
+}
+.monaco-editor .margin {
+    background-color: var(--vscode-editorGutter-background);
+    left: 0px;
+    width: 2px;
+    height: 1195px;
+}
+
+.monaco-editor .line-numbers {
+    color: var(--vscode-editorLineNumber-foreground);
+    font-size: 12px;
+    font-family: roboto, Consolas, "Courier New", monospace;
+}
+.monaco-editor.glyph-margin{
+    background-color: var(--vscode-editorGutter-background);
+    left: 0px;
+    width: 2px;
+    height: 1195px;
+}
+
+/* ADD THESE NEW STYLES FOR EXTENSION MARKETPLACE */
+
+/* Extension Details View - Main content area */
+.extension-editor .body {
+    color: #ffffff !important;
+    background-color: #1e1e1e !important;
+}
+
+/* Extension description text */
+.extension-editor .body .readme-container,
+.extension-editor .body .details-container,
+.extension-editor .body .changelog-container {
+    color: #ffffff !important;
+}
+
+/* Extension details paragraphs and text */
+.extension-editor .body p,
+.extension-editor .body div,
+.extension-editor .body span,
+.extension-editor .body td,
+.extension-editor .body th {
+    color: #ffffff !important;
+}
+
+/* Extension headers */
+.extension-editor .body h1,
+.extension-editor .body h2,
+.extension-editor .body h3,
+.extension-editor .body h4,
+.extension-editor .body h5,
+.extension-editor .body h6 {
+    color: #ffffff !important;
+}
+
+/* Extension lists */
+.extension-editor .body ul,
+.extension-editor .body ol,
+.extension-editor .body li {
+    color: #ffffff !important;
+}
+
+/* Extension code blocks */
+.extension-editor .body pre,
+.extension-editor .body code {
+    color: #d4d4d4 !important;
+    background-color: #2d2d30 !important;
+}
+
+/* Extension tables */
+.extension-editor .body table {
+    color: #ffffff !important;
+}
+
+/* General extension marketplace text */
+.extensions-viewlet .extension,
+.extensions-viewlet .extension-list-item,
+.extension-editor {
+    color: #ffffff !important;
+}
+
+/* Extension marketplace sidebar */
+.extensions-viewlet {
+    color: #ffffff !important;
+}
+
+/* Extension cards in the marketplace */
+.extensions-viewlet .extension .details .name,
+.extensions-viewlet .extension .details .description,
+.extensions-viewlet .extension .details .author {
+    color: #ffffff !important;
+}
+
+/* Fix for any remaining dark text */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container .tab .label,
+.monaco-workbench .part.panel > .content,
+.monaco-workbench .part.sidebar > .content {
+    color: #ffffff !important;
+}

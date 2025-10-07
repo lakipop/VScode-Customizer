@@ -1,0 +1,275 @@
+{
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.tag.css",
+        "settings": {
+          "foreground": "#007600"
+        }
+      }
+    ]
+},
+
+  "markdown.preview.theme": "dark",
+  "markdown.styles": [
+      ".vscode/markdown-dark.css"
+  ],
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "livePreview.defaultPreviewPath": "/README.md",
+  "workbench.startupEditor": "newUntitledFile",
+
+    "workbench.iconTheme": "symbols",
+
+  "workbench.colorCustomizations": {
+    "input.background": "#1e1e1e",
+    "input.foreground": "#ffffff",
+    "input.border": "#333333",
+   "dropdown.foreground": "#8aea8f",
+    "list.activeSelectionIconForeground": "#4ad651",
+    "list.focusAndSelectionOutline": "#C2185B",
+    "pickerGroup.foreground": "#2E7D32",
+    "quickInput.foreground": "#2E7D32",
+    "quickInputList.focusIconForeground": "#C2185B",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#51c608",
+    "activityBarBadge.background": "#001506",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#000000",
+    "sideBar.fontSize": "14px", //  font size of the sidebar
+    "sideBar.fontWeight": "600",
+    "sideBar.foreground": "#fffdfdc8",
+    "sideBarSectionHeader.background": "#000000ae",
+    "sideBarSectionHeader.foreground": "#f7f7f7",
+    "editorGroup.background": "#070a07ae",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGroupHeader.tabsBorder": "#030303",
+    "tab.activeBackground": "#000000",
+    "tab.activeForeground": "#fff23dc5",  
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#f7f7f7",
+    "editor.background": "#0000005b",
+    
+    "editor.foreground": "#171717",
+     "editorWidget.background": "#1a1a1a",      // Extension panels background
+    "editorWidget.foreground": "#2e2e2e",
+     // Extension description and content
+    "descriptionForeground": "#ffffff",
+    "foreground": "#ffffff",
+    
+    "editorLineNumber.foreground": "#18ff2788",
+    "editorLineNumber.background": "#000000d1",
+    "editorLineNumber.fontSize": "12px",
+    "editorLineNumber.commentForeground": "#00ff00",
+    "editorLineNumber.activeBackground": "#000000d1",
+    "editorLineNumber.activeFontSize": "14px", 
+    "editor.commentForeground":  "#f7f7f7",
+    "editorLineNumber.activeForeground": "#ff006a9d",
+    "editorCursor.foreground": "#00ff55",
+    "editor.selectionBackground": "#a4a4a42a",
+    "editor.selectionHighlightBorder": "#3d3d3da7",
+    "editor.wordHighlightBorder": "#1e1010",
+    "editor.wordHighlightStrongBorder": "#d4d3d341",
+    "editor.findMatchBackground": "#f7f7f7",
+    "editor.findMatchBorder": "#f7f7f7",
+    "editor.findMatchHighlightBorder": "#91919130",
+    "editor.lineHighlightBackground": "#7a7a7a1e",
+    "editor.lineHighlightBorder": "#f7f7f77e",
+    "editorLink.activeForeground": "#d4d4d4",
+    "editorWhitespace.foreground": "#c6c6c61d",
+    "editorRuler.foreground": "#6c6c6ca8",
+    "editorCodeLens.foreground": "#89d702",
+    "editorBracketMatch.background": "#f7f7f7",
+    "editorBracketMatch.border": "#f7f7f7",
+    "editorOverviewRuler.border": "#f7f7f7",
+    "symbolIcon.keyForeground": "#c30000",
+    "menu.background": "#000000",
+    "menubar.selectionBackground": "#000000",
+    "menu.foreground": "#ffffff",
+    "menu.selectionBackground": "#c0c0c0",
+    "menu.selectionForeground": "#ffffff",  
+    "panel.background": "#000000",
+    "panel.border": "#686b64",
+    "panelTitle.activeBorder": "#000000",
+    "panelTitle.activeBorderTop": "#000000",
+    "panelTitle.activeBorderTopBottom": "#000000",
+    "panelTitle.activeForeground": "#f7f7f7cb",
+    "panelTitle.inactiveForeground": "#f4f4f49c",
+
+
+    "terminal.background": "#000000",
+    "terminal.foreground": "#f7f7f7d4",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#ff0000",
+    "terminal.ansiGreen": "#00ff00",
+    "terminal.ansiYellow": "#ffff00",
+    "terminal.ansiBlue": "#0000ff",
+    "terminal.ansiMagenta": "#ff00ff",
+    "terminal.ansiCyan": "#00ffff",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiBrightBlack": "#808080",
+    "terminal.ansiBrightRed": "#ff0000",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ffffffe2",
+
+    "editorGroup.border": "#000000",
+    "editorGroup.dropBackground": "#000000"
+
+  },
+
+    "background.windowBackgrounds": [
+      "d:/Pictures/Wallhaven 23/**"
+    ],
+    
+    "background.fullscreen": {
+      "images": [
+       
+      ] ,
+      "folders": [
+       
+      ],
+        "opacity": 0.4,
+        "useFront": true,
+        "size": "cover",
+        "position": "center",
+        "interval": 10,
+        "random": false
+    },
+    
+    
+      // `sidebar` and `panel` have the same config as `fullscreen`
+  "background.sidebar": {},
+  "background.panel": {},
+
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "easycode.model": "gpt-4o",
+    "tabnine.experimentalAutoImports": true,
+    "hediet.vscode-drawio.resizeImages": null,
+    "background.backgroundOpacity": [
+      0.2,
+      0.3,
+      0.1,
+      0.1
+    ],
+    "background.backgroundBlur": [
+        "0",
+        "0",
+        "0",
+        "10"
+    ],
+    "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 3,
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.cursorSurroundingLines": 3,  // Reduces vertical cursor padding
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontFamily": "Cascadia Mono', 'Consolas', 'Courier New' ",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": -0.5,
+    "editor.lineHeight": 19,
+    //"editor.wordWrap": "on",
+    "editor.fontWeight": "350",
+    
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontWeight":400,
+    "terminal.integrated.fontFamily": "Roboto",
+    "terminal.integrated.lineHeight": 1,
+
+    "window.autoDetectHighContrast": false,
+    "redhat.telemetry.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "php.validate.executablePath": "",
+    "lldb.suppressUpdateNotifications": true,
+    "editor.dropIntoEditor.preferences": [
+
+
+    "text.plain"
+    ],
+    "background.backgroundChangeTime": [
+      30,
+      30,
+      30,
+      0
+    ],
+    "material-ui-snippets.showNotesOnStartup": false,
+    "editor.language.brackets": [
+
+    ],
+"editor.colorDecorators": true,
+"editor.semanticTokenColorCustomizations": {},
+"background.backgroundAlignment": [
+
+  "Top Center",
+  "Center Center",
+  "Center Center",
+  "Center Center"
+],
+"editor.codeActionsOnSave": {
+
+
+
+},
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "background.backgroundSize": [
+    "Cover",
+    "Cover",
+    "Cover",
+    "Cover"
+  ],
+  "background.sidebarBackgrounds": [],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "background.autoInstall": false,
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "pullRequests",
+    "remoteBranches",
+    "tags"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Vivid Black",
+"vscode_custom_css.imports": [
+  "file:///D:/Projects/vsCustomizer/Color.css"
+],
+"background.editorBackgrounds": [],
+"php.problems.exclude": {},
+"githubPullRequests.pullBranch": "never",
+"git.autofetch": true,
+"gitlens.ai.model": "vscode",
+"gitlens.ai.vscode.model": "copilot:claude-sonnet-4",
+"git.enableSmartCommit": true,
+"github.copilot.nextEditSuggestions.enabled": true,
+"chat.tools.terminal.autoApprove": {
+  "npm run dev": {
+    "approve": true,
+    "matchCommandLine": true
+  }
+},
+"terminal.integrated.suggest.enabled": true,
+"[markdown]": {
+
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordWrap": "on",
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  }
+}
+
+
+}
+
+
+

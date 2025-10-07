@@ -1,0 +1,390 @@
+/* 🌲 ENHANCED NATURE THEME - VIBRANT & READABLE 🌲 */
+/* Forest greens, lake blues, oak browns, and nature rose accents */
+
+/* ====== MONACO EDITOR SYNTAX COLORS ====== */
+/* Keywords - Strong Forest Green */
+.mtk1 { color: #329a37; }
+
+/* Strings - Fresh Grass Green */
+.mtk2 { color: #53c057; }
+
+/* Comments - Sage Green with mild opacity */
+.mtk3 { color: rgba(139, 195, 74, 0.8); }
+
+/* Numbers - Warm Oak Brown */
+.mtk4 { color: #8D6E63; }
+
+/* Functions - Lake Teal Blue */
+.mtk5 { color: #1aa3937a; }
+
+/* Variables - Nature Lake Blue */
+.mtk6 { color: #0277BD; }
+
+/* Operators - Deep Oak */
+.mtk7 { color: #5D4037; }
+
+/* Types - Pine Green */
+.mtk8 { color: #1B5E20; }
+
+/* Control Keywords - Autumn Orange */
+.mtk9 { color: #FF8F00; }
+
+/* Brackets/Punctuation - Stone Blue */
+.mtk10 { color: #789eaf; }
+
+/* Classes - Emerald Teal */
+.mtk11 { color: #00796B; }
+
+/* Methods - Lake Cyan */
+.mtk12 { color: #0097A7; }
+
+/* Constants - Golden Yellow */
+.mtk13 { color: #ffcf55; }
+
+/* Parameters - Spring Green */
+.mtk14 { color: #689F38; }
+
+/* Regex - Warm Sunset Orange */
+.mtk15 { color: #F57C00; }
+
+/* Decorators - Nature Rose */
+.mtk16 { color: #C2185B; }
+
+/* Additional vibrant nature tokens */
+.mtk17 { color: #7CB342; } /* Light Forest */
+.mtk18 { color: #388E3C; } /* Deep Grass */
+.mtk19 { color: #43A047; } /* Bright Green */
+.mtk20 { color: #558B2F; } /* Olive Green */
+.mtk21 { color: #33691E; } /* Dark Moss */
+.mtk22 { color: #1B5E20; } /* Deep Pine */
+.mtk23 { color: #827717; } /* Olive Brown */
+.mtk24 { color: #66BB6A; } /* Medium Green */
+.mtk25 { color: #81C784; } /* Soft Green */
+
+/* ====== MONACO EDITOR DECORATIONS ====== */
+/* Git decorations - rose highlights for quick identification */
+.monaco-decoration-itemColor--ec98p9 {
+    color: #66BB6A; /* Untracked - bright green */
+}
+.monaco-decoration-itemBadge--ec98p9::after {
+    content: "U";
+    color: #E91E63; /* Rose accent for quick ID */
+    background: rgba(233, 30, 99, 0.1);
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+.monaco-decoration-itemColor--ew9twd {
+    color: #43A047; /* Modified files - bright green */
+}
+
+.monaco-decoration-itemColor-kkyaq5 {
+    color: #FFC107; /* Staged files - bright yellow */
+}
+.monaco-decoration-itemBadge-kkyaq5::after {
+    content: "M";
+    color: #D81B60; /* Rose accent */
+    background: rgba(216, 27, 96, 0.1);
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+.monaco-decoration-bubbleBadge--p0w8yl::after {
+    content: "";
+    color: #C2185B; /* Rose for badges */
+    font-family: codicon;
+    font-size: 14px;
+    margin-right: 14px;
+    opacity: 0.9;
+}
+
+.monaco-decoration-itemColor--hkk8zx {
+    color: #2E7D32; /* Committed - strong forest green */
+}
+
+.monaco-decoration-itemColor--xodzlv {
+    color: #1B5E20; /* Added - deep pine */
+}
+
+/* ====== CODE LENS ====== */
+.monaco-editor .codelens-decoration {
+    color: #689F38 !important; /* Clear spring green */
+    font-family: var(--vscode-editorCodeLens-fontFamily), 'Segoe UI', sans-serif;
+    font-size: var(--vscode-editorCodeLens-fontSize);
+    line-height: var(--vscode-editorCodeLens-lineHeight);
+    overflow: hidden;
+    padding-right: calc(var(--vscode-editorCodeLens-fontSize) * 0.5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+/* ====== EDITOR MARGINS & LINE NUMBERS ====== */
+.margin-view-overlays {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-feature-settings: "liga", "calt";
+    line-height: 20px;
+    letter-spacing: 0px;
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.08), rgba(27, 94, 32, 0.05));
+}
+
+.monaco-editor .margin {
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.12), rgba(27, 94, 32, 0.08)) !important;
+    font-size: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    border-right: 1px solid rgba(194, 24, 91, 0.2); /* Rose border */
+}
+
+.monaco-editor .line-numbers {
+    color: #689F38 !important; /* Clear spring green */
+    font-size: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+    color: #C2185B !important; /* Rose for active line */
+    font-weight: 600;
+}
+
+.monaco-editor .glyph-margin {
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.08), rgba(27, 94, 32, 0.05)) !important;
+}
+
+/* ====== SCROLLBARS - THIN NATURE ROSE ====== */
+.monaco-scrollable-element > .scrollbar {
+    width: 8px !important; /* Very thin */
+    height: 8px !important;
+}
+
+.monaco-scrollable-element > .scrollbar > .slider {
+    background: rgba(226, 13, 38, 0.748) !important; /* Nature rose */
+    border-radius: 4px;
+    width: 8px !important; /* Even thinner slider */
+    height: 20px !important;
+    margin: 1px;
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:hover {
+    background: rgba(233, 30, 57, 0.8) !important; /* Brighter rose on hover */
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:active {
+    background: #e91e4a !important; /* Full rose when dragging */
+}
+
+/* ====== EXTENSION MARKETPLACE STYLING ====== */
+/* Main extension content - clean and readable */
+.extension-editor .body {
+    color: #37474F !important; /* Dark blue-gray for readability */
+    background: linear-gradient(135deg, rgba(232, 245, 233, 0.3), rgba(248, 255, 248, 0.2)) !important;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Extension description - forest tones */
+.extension-editor .body .readme-container,
+.extension-editor .body .details-container,
+.extension-editor .body .changelog-container {
+    color: #2E7D32 !important; /* Strong forest green */
+    background: rgba(255, 255, 255, 0.4);
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #c21840; /* Rose accent */
+}
+
+/* Text elements - readable dark tones */
+.extension-editor .body p,
+.extension-editor .body div,
+.extension-editor .body span,
+.extension-editor .body td,
+.extension-editor .body th {
+    color: #37474F !important; /* Clear dark blue-gray */
+    line-height: 1.6;
+}
+
+/* Headers with rose accents */
+.extension-editor .body h1,
+.extension-editor .body h2,
+.extension-editor .body h3,
+.extension-editor .body h4,
+.extension-editor .body h5,
+.extension-editor .body h6 {
+    color: #1B5E20 !important; /* Deep pine */
+    background: linear-gradient(90deg, rgba(194, 24, 91, 0.1), transparent);
+    padding: 8px 12px;
+    border-radius: 4px;
+    border-left: 3px solid #e91e43; /* Rose border */
+}
+
+/* Lists - clear and readable */
+.extension-editor .body ul,
+.extension-editor .body ol,
+.extension-editor .body li {
+    color: #637883 !important; /* Clear dark text */
+    line-height: 1.7;
+}
+
+.extension-editor .body li::marker {
+    color: #c2183a; /* Rose bullets */
+}
+
+/* Code blocks - nature themed but readable */
+.extension-editor .body pre,
+.extension-editor .body code {
+    color: #2E7D32 !important; /* Forest green */
+    background: rgba(232, 245, 233, 0.6) !important;
+    border: 1px solid rgba(194, 24, 91, 0.2); /* Rose border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+/* Tables with rose accents */
+.extension-editor .body table {
+    color: #37474F !important;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(194, 24, 91, 0.1);
+}
+
+.extension-editor .body th {
+    background: rgba(194, 24, 91, 0.1) !important; /* Rose header */
+    color: #1B5E20 !important; /* Deep pine text */
+    border-bottom: 2px solid #E91E63; /* Rose border */
+}
+
+/* ====== GENERAL INTERFACE ELEMENTS ====== */
+/* Extension marketplace - clear and readable */
+.extensions-viewlet .extension,
+.extensions-viewlet .extension-list-item,
+.extension-editor {
+    color: #37474F !important; /* Clear dark text */
+    background: rgba(248, 255, 248, 0.2);
+}
+
+/* Extension marketplace sidebar */
+.extensions-viewlet {
+    color: #2E7D32 !important; /* Forest green */
+    background: linear-gradient(180deg, rgba(232, 245, 233, 0.2), rgba(248, 255, 248, 0.1));
+}
+
+/* Extension cards with rose highlights */
+.extensions-viewlet .extension .details .name,
+.extensions-viewlet .extension .details .description,
+.extensions-viewlet .extension .details .author {
+    color: #1B5E20 !important; /* Deep pine for contrast */
+}
+
+.extensions-viewlet .extension .details .name {
+    color: #2E7D32 !important; /* Forest green for names */
+    font-weight: 600;
+}
+
+/* Workbench elements */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container .tab .label,
+.monaco-workbench .part.panel > .content,
+.monaco-workbench .part.sidebar > .content {
+    color: #b5c2c9 !important; /* Clear readable text */
+}
+
+/* ====== SELECTION AND HIGHLIGHTS ====== */
+.monaco-editor .selected-text {
+    background: rgba(194, 24, 91, 0.15) !important; /* Rose selection */
+}
+
+.monaco-editor .focused .selected-text {
+    background: rgba(105, 233, 30, 0.2) !important; /* Brighter green when focused */
+}
+
+.monaco-editor .current-line {
+    background: rgba(232, 245, 233, 0.4) !important; /* Subtle green highlight */
+}
+
+/* ====== BRACKET MATCHING - ROSE ACCENTS ====== */
+.monaco-editor .bracket-match {
+    background: rgba(194, 24, 91, 0.15) !important; /* Rose highlight */
+    border: 1px solid #e91e36 !important; /* Rose border */
+}
+
+/* ====== FIND WIDGET - NATURE WITH ROSE ACCENTS ====== */
+.monaco-editor .find-widget {
+    background: linear-gradient(135deg, rgba(232, 245, 233, 0.95), rgba(248, 255, 248, 0.9)) !important;
+    border: 2px solid rgba(194, 24, 91, 0.3); /* Rose border */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(194, 24, 91, 0.1);
+}
+
+.monaco-editor .find-widget .monaco-inputbox {
+    border: 1px solid rgba(194, 24, 91, 0.4) !important;
+}
+
+/* ====== SUGGEST WIDGET - CLEAN NATURE THEME ====== */
+.monaco-editor .suggest-widget {
+    background: rgba(248, 255, 248, 0.95) !important;
+    border: 1px solid rgba(194, 24, 91, 0.3); /* Rose border */
+    border-radius: 6px;
+    color: #2E7D32 !important; /* Forest green text */
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused {
+    background: rgba(194, 24, 91, 0.1) !important; /* Rose highlight */
+}
+
+/* ====== MINIMAP - ROSE ACCENTS ====== */
+.monaco-editor .minimap {
+    opacity: 0.8;
+}
+
+.monaco-editor .minimap .minimap-slider {
+    background: rgba(194, 24, 91, 0.4) !important; /* Rose slider */
+}
+
+.monaco-editor .minimap .minimap-slider:hover {
+    background: rgba(233, 30, 99, 0.6) !important;
+}
+
+/* ====== TABS WITH NATURE COLORS ====== */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container .tab.active {
+    background: rgba(232, 245, 233, 0.3) !important;
+    border-bottom: 2px solid #C2185B !important; /* Rose active tab indicator */
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container .tab:hover {
+    background: rgba(194, 24, 91, 0.05) !important; /* Rose hover */
+}
+
+/* ====== STATUS BAR ACCENTS ====== */
+.monaco-workbench .part.statusbar {
+    border-top: 1px solid rgba(194, 24, 91, 0.2) !important; /* Rose accent */
+}
+
+/* ====== BUTTON ACCENTS ====== */
+.monaco-button.prominent {
+    background: #c2182c !important; /* Rose buttons */
+    color: white !important;
+}
+
+.monaco-button.prominent:hover {
+    background: #e91e40 !important; /* Brighter rose on hover */
+}
+
+/* ====== QUICK IDENTIFICATION HIGHLIGHTS ====== */
+/* Error indicators - bright rose for quick spotting */
+.monaco-editor .squiggly-error {
+    border-bottom: 2px wavy #E91E63 !important;
+}
+
+/* Warning indicators - orange for nature feel */
+.monaco-editor .squiggly-warning {
+    border-bottom: 2px wavy #FF8F00 !important;
+}
+
+/* Info indicators - lake blue */
+.monaco-editor .squiggly-info {
+    border-bottom: 2px wavy #0277BD !important;
+}
