@@ -50,9 +50,9 @@
     "tab.inactiveForeground": "#f7f7f7",
     "editor.background": "#0000005b",
     
-    "editor.foreground": "#171717",
+    "editor.foreground": "#e0e0e0",
      "editorWidget.background": "#1a1a1a",      // Extension panels background
-    "editorWidget.foreground": "#2e2e2e",
+    "editorWidget.foreground": "#d0d0d0",
      // Extension description and content
     "descriptionForeground": "#ffffff",
     "foreground": "#ffffff",
@@ -70,23 +70,23 @@
     "editor.selectionHighlightBorder": "#3d3d3da7",
     "editor.wordHighlightBorder": "#1e1010",
     "editor.wordHighlightStrongBorder": "#d4d3d341",
-    "editor.findMatchBackground": "#f7f7f7",
-    "editor.findMatchBorder": "#f7f7f7",
-    "editor.findMatchHighlightBorder": "#91919130",
+    "editor.findMatchBackground": "#ff9800",
+    "editor.findMatchBorder": "#ffc107",
+    "editor.findMatchHighlightBorder": "#ff980080",
     "editor.lineHighlightBackground": "#7a7a7a1e",
     "editor.lineHighlightBorder": "#f7f7f77e",
     "editorLink.activeForeground": "#d4d4d4",
     "editorWhitespace.foreground": "#c6c6c61d",
     "editorRuler.foreground": "#6c6c6ca8",
     "editorCodeLens.foreground": "#89d702",
-    "editorBracketMatch.background": "#f7f7f7",
-    "editorBracketMatch.border": "#f7f7f7",
-    "editorOverviewRuler.border": "#f7f7f7",
+    "editorBracketMatch.background": "#4a4a4a80",
+    "editorBracketMatch.border": "#ffff00",
+    "editorOverviewRuler.border": "#404040",
     "symbolIcon.keyForeground": "#c30000",
     "menu.background": "#000000",
     "menubar.selectionBackground": "#000000",
     "menu.foreground": "#ffffff",
-    "menu.selectionBackground": "#c0c0c0",
+    "menu.selectionBackground": "#2d5a2d",
     "menu.selectionForeground": "#ffffff",  
     "panel.background": "#000000",
     "panel.border": "#686b64",
@@ -114,7 +114,6 @@
 
     "editorGroup.border": "#000000",
     "editorGroup.dropBackground": "#000000"
-
   },
 
     "background.windowBackgrounds": [
@@ -237,7 +236,7 @@
   ],
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.colorTheme": "Vivid Black",
-"vscode_custom_css.imports": [
+  "vscode_custom_css.imports": [
   "file:///D:/Projects/vsCustomizer/Color.css"
 ],
 "background.editorBackgrounds": [],
@@ -256,7 +255,6 @@
 },
 "terminal.integrated.suggest.enabled": true,
 "[markdown]": {
-
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -266,10 +264,12 @@
     "strings": "off",
     "other": "off"
   }
+},
+"github.copilot.enable": {
+  "*": true,
+  "plaintext": false,
+  "markdown": true,
+  "scminput": false
+},
+"explorer.confirmDelete": false
 }
-
-
-}
-
-
-
