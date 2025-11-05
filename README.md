@@ -1,10 +1,21 @@
 # VS Code Customizer 🎨
 
-A collection of beautiful and customizable themes for Visual Studio Code that enhance your coding experience. This repository contains carefully crafted color schemes and settings to make your VS Code environment both aesthetically pleasing and functional.
+A collection of beautiful and customizable themes for Visual Studio Code that enhance your coding experience. This repository contains 6 carefully crafted color schemes and settings to make your VS Code environment both aesthetically pleasing and functional.
+
+Choose from modern neon themes, nature-inspired palettes, GitHub-style dark mode, night sky aesthetics, fire gradients, and deep forest themes. Each theme is designed with readability and visual appeal in mind.
 
 ## Available Themes
 
-### 1. Modern Dark Theme
+### 1. Color.css - Modern Dark Theme
+`themes/Color.css`
+
+**Color Palette:**
+![#d2ffd4](https://via.placeholder.com/15/d2ffd4/d2ffd4.png) `#d2ffd4`
+![#91fb95](https://via.placeholder.com/15/91fb95/91fb95.png) `#91fb95`
+![#e538ff](https://via.placeholder.com/15/e538ff/e538ff.png) `#e538ff`
+![#ff8229](https://via.placeholder.com/15/ff8229/ff8229.png) `#ff8229`
+![#64e3ff](https://via.placeholder.com/15/64e3ff/64e3ff.png) `#64e3ff`
+![#fff045](https://via.placeholder.com/15/fff045/fff045.png) `#fff045`
 
 A sleek dark theme with vibrant syntax highlighting and a modern look.
 
@@ -13,7 +24,16 @@ A sleek dark theme with vibrant syntax highlighting and a modern look.
 - Optimized for readability
 - Perfect for long coding sessions
 
-### 2. Eco Theme 🌲
+### 2. Ecotheme.css - Nature Theme 🌲
+`themes/Ecotheme.css`
+
+**Color Palette:**
+![#329a37](https://via.placeholder.com/15/329a37/329a37.png) `#329a37`
+![#53c057](https://via.placeholder.com/15/53c057/53c057.png) `#53c057`
+![#0277BD](https://via.placeholder.com/15/0277BD/0277BD.png) `#0277BD`
+![#8D6E63](https://via.placeholder.com/15/8D6E63/8D6E63.png) `#8D6E63`
+![#C2185B](https://via.placeholder.com/15/C2185B/C2185B.png) `#C2185B`
+![#FF8F00](https://via.placeholder.com/15/FF8F00/FF8F00.png) `#FF8F00`
 
 A nature-inspired theme that brings the outdoors to your code editor.
 
@@ -21,6 +41,81 @@ A nature-inspired theme that brings the outdoors to your code editor.
 - Nature-inspired syntax highlighting
 - Warm oak accents
 - Easy on the eyes
+
+### 3. GitStyle.css - GitHub Dark Style 🐙
+`themes/GitStyle.css`
+
+**Color Palette:**
+![#79c0ff](https://via.placeholder.com/15/79c0ff/79c0ff.png) `#79c0ff`
+![#7ee787](https://via.placeholder.com/15/7ee787/7ee787.png) `#7ee787`
+![#d2a8ff](https://via.placeholder.com/15/d2a8ff/d2a8ff.png) `#d2a8ff`
+![#ffa657](https://via.placeholder.com/15/ffa657/ffa657.png) `#ffa657`
+![#ff7b72](https://via.placeholder.com/15/ff7b72/ff7b72.png) `#ff7b72`
+![#a5d6ff](https://via.placeholder.com/15/a5d6ff/a5d6ff.png) `#a5d6ff`
+
+GitHub-inspired dark theme with green and red accents.
+
+- GitHub's signature color palette
+- Green for success/additions
+- Red for errors/deletions
+- Blue and purple for code elements
+- Clean, professional look
+
+### 4. ModernNight.css - Night Sky Theme 🌃
+`themes/ModernNight.css`
+
+**Color Palette:**
+![#bb86fc](https://via.placeholder.com/15/bb86fc/bb86fc.png) `#bb86fc`
+![#ff6ac1](https://via.placeholder.com/15/ff6ac1/ff6ac1.png) `#ff6ac1`
+![#82aaff](https://via.placeholder.com/15/82aaff/82aaff.png) `#82aaff`
+![#89ddff](https://via.placeholder.com/15/89ddff/89ddff.png) `#89ddff`
+![#ff5370](https://via.placeholder.com/15/ff5370/ff5370.png) `#ff5370`
+![#c792ea](https://via.placeholder.com/15/c792ea/c792ea.png) `#c792ea`
+
+Modern dark theme with purple, red, and blue variants creating a night sky aesthetic.
+
+- Deep purple and neon pink
+- Electric blue accents
+- Hot pink for control flow
+- Subtle glow effects
+- Perfect for night coding
+
+### 5. FireGradient.css - Fire Theme 🔥
+`themes/FireGradient.css`
+
+**Color Palette:**
+![#ff4a4a](https://via.placeholder.com/15/ff4a4a/ff4a4a.png) `#ff4a4a`
+![#ffba08](https://via.placeholder.com/15/ffba08/ffba08.png) `#ffba08`
+![#dc2f02](https://via.placeholder.com/15/dc2f02/dc2f02.png) `#dc2f02`
+![#e85d04](https://via.placeholder.com/15/e85d04/e85d04.png) `#e85d04`
+![#f48c06](https://via.placeholder.com/15/f48c06/f48c06.png) `#f48c06`
+![#faa307](https://via.placeholder.com/15/faa307/faa307.png) `#faa307`
+
+Tailwind-inspired warm gradient from rich blacks to bright oranges and yellows.
+
+- Fire-like color progression
+- Rich blacks to warm yellows
+- Orange and red accents
+- Warm, energetic feel
+- Fire glow effects
+
+### 6. ForestDepth.css - Deep Forest Theme 🌿
+`themes/ForestDepth.css`
+
+**Color Palette:**
+![#132a13](https://via.placeholder.com/15/132a13/132a13.png) `#132a13`
+![#31572c](https://via.placeholder.com/15/31572c/31572c.png) `#31572c`
+![#4f772d](https://via.placeholder.com/15/4f772d/4f772d.png) `#4f772d`
+![#90a955](https://via.placeholder.com/15/90a955/90a955.png) `#90a955`
+![#ecf39e](https://via.placeholder.com/15/ecf39e/ecf39e.png) `#ecf39e`
+
+Nature-inspired green gradient from dark forest to bright mindaro.
+
+- Deep forest base colors
+- Rich woodland tones
+- Natural green progression
+- Bright yellow-green highlights
+- Organic, layered design
 
 ## Features
 
@@ -128,9 +223,11 @@ Stay tuned for:
 
 - More theme variations
 - Light theme versions
+- Theme preview screenshots
 - Custom icon packs
 - Additional language-specific highlighting
 - Theme generator tool
+- Community-contributed themes
 
 ## Contributing
 

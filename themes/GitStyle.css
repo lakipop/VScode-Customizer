@@ -1,0 +1,266 @@
+/* 🐙 GITHUB DARK STYLE THEME 🐙 */
+/* GitHub-inspired dark theme with green and red accents */
+
+/* ====== MONACO EDITOR SYNTAX COLORS ====== */
+/* Keywords - GitHub Blue */
+.mtk1 { color: #79c0ff; }
+
+/* Strings - GitHub Green */
+.mtk2 { color: #a5d6ff; }
+
+/* Comments - GitHub Gray with opacity */
+.mtk3 { color: rgba(139, 148, 158, 0.8); }
+
+/* Numbers - GitHub Orange */
+.mtk4 { color: #ffa657; }
+
+/* Functions - GitHub Purple */
+.mtk5 { color: #d2a8ff; }
+
+/* Variables - GitHub Light Blue */
+.mtk6 { color: #7ee787; }
+
+/* Operators - GitHub White */
+.mtk7 { color: #c9d1d9; }
+
+/* Types - GitHub Yellow */
+.mtk8 { color: #f0883e; }
+
+/* Control Keywords - GitHub Red */
+.mtk9 { color: #ff7b72; }
+
+/* Brackets/Punctuation - GitHub Light Gray */
+.mtk10 { color: #c9d1d9; }
+
+/* Classes - GitHub Yellow */
+.mtk11 { color: #ffa657; }
+
+/* Methods - GitHub Purple */
+.mtk12 { color: #d2a8ff; }
+
+/* Constants - GitHub Blue */
+.mtk13 { color: #79c0ff; }
+
+/* Parameters - GitHub Cyan */
+.mtk14 { color: #7ee787; }
+
+/* Regex - GitHub Green */
+.mtk15 { color: #7ee787; }
+
+/* Decorators - GitHub Pink */
+.mtk16 { color: #ff7b72; }
+
+/* Additional GitHub-style tokens */
+.mtk17 { color: #a5d6ff; } /* Light Blue */
+.mtk18 { color: #7ee787; } /* Bright Green */
+.mtk19 { color: #ffa657; } /* Orange */
+.mtk20 { color: #ff7b72; } /* Red */
+.mtk21 { color: #d2a8ff; } /* Purple */
+.mtk22 { color: #79c0ff; } /* Blue */
+.mtk23 { color: #f0883e; } /* Dark Orange */
+.mtk24 { color: #56d364; } /* Success Green */
+.mtk25 { color: #da3633; } /* Error Red */
+
+/* ====== MONACO EDITOR DECORATIONS ====== */
+/* Git decorations - GitHub style */
+.monaco-decoration-itemColor--ec98p9 {
+    color: #7ee787; /* Untracked - bright green */
+}
+.monaco-decoration-itemBadge--ec98p9::after {
+    content: "U";
+    color: #7ee787;
+    background: rgba(126, 231, 135, 0.15);
+    border-radius: 3px;
+    padding: 1px 3px;
+    font-weight: 600;
+}
+
+.monaco-decoration-itemColor--ew9twd {
+    color: #56d364; /* Modified files - success green */
+}
+
+.monaco-decoration-itemColor-kkyaq5 {
+    color: #ffa657; /* Staged files - orange */
+}
+.monaco-decoration-itemBadge-kkyaq5::after {
+    content: "M";
+    color: #ffa657;
+    background: rgba(255, 166, 87, 0.15);
+    border-radius: 3px;
+    padding: 1px 3px;
+    font-weight: 600;
+}
+
+.monaco-decoration-bubbleBadge--p0w8yl::after {
+    content: "";
+    color: #ff7b72;
+    font-family: codicon;
+    font-size: 14px;
+    margin-right: 14px;
+    opacity: 0.9;
+}
+
+.monaco-decoration-itemColor--hkk8zx {
+    color: #56d364; /* Saved changes - green */
+}
+
+.monaco-decoration-itemColor--xodzlv {
+    color: #7ee787; /* New additions - bright green */
+}
+
+/* ====== MONACO EDITOR ELEMENTS ====== */
+.monaco-editor .codelens-decoration {
+    color: #79c0ff;
+    color: var(--vscode-editorCodeLens-foreground);
+    display: inline-block;
+    font-family: var(--vscode-editorCodeLens-fontFamily), var(--vscode-editorCodeLens-fontFamilyDefault);
+    font-feature-settings: var(--vscode-editorCodeLens-fontFeatureSettings);
+    font-size: var(--vscode-editorCodeLens-fontSize);
+    line-height: var(--vscode-editorCodeLens-lineHeight);
+    overflow: hidden;
+    padding-right: calc(var(--vscode-editorCodeLens-fontSize)* .5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.monaco-editor .codelens-decoration:hover {
+    color: #a5d6ff;
+}
+
+.monaco-editor .view-overlays .current-line {
+    border: 1px solid rgba(126, 231, 135, 0.2);
+}
+
+/* GitHub-style diff colors */
+.monaco-diff-editor .insert {
+    background-color: rgba(46, 160, 67, 0.15);
+}
+
+.monaco-diff-editor .delete {
+    background-color: rgba(248, 81, 73, 0.15);
+}
+
+/* Selection colors */
+.monaco-editor .selected-text {
+    background-color: rgba(79, 192, 255, 0.25);
+}
+
+/* Find match highlights */
+.monaco-editor .findMatch {
+    background-color: rgba(255, 166, 87, 0.3);
+}
+
+/* Bracket matching - GitHub style */
+.monaco-editor .bracket-match {
+    background-color: rgba(126, 231, 135, 0.2);
+    border: 1px solid #7ee787;
+}
+
+/* Error and warning underlines */
+.monaco-editor .squiggly-error {
+    border-bottom: 2px solid #ff7b72;
+}
+
+.monaco-editor .squiggly-warning {
+    border-bottom: 2px solid #ffa657;
+}
+
+.monaco-editor .squiggly-info {
+    border-bottom: 2px solid #79c0ff;
+}
+
+/* Scrollbar styling */
+.monaco-scrollable-element > .scrollbar > .slider {
+    background: rgba(121, 192, 255, 0.4);
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:hover {
+    background: rgba(121, 192, 255, 0.6);
+}
+
+/* Minimap colors */
+.monaco-editor .minimap-decorations .minimap-decoration-error {
+    background: #ff7b72;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-warning {
+    background: #ffa657;
+}
+
+/* Indentation guides */
+.monaco-editor .lines-content .cigr {
+    box-shadow: 1px 0 0 0 rgba(126, 231, 135, 0.15) inset;
+}
+
+.monaco-editor .lines-content .cigra {
+    box-shadow: 1px 0 0 0 rgba(126, 231, 135, 0.4) inset;
+}
+
+/* Suggest widget - GitHub style */
+.monaco-editor .suggest-widget {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused {
+    background-color: #388bfd26;
+}
+
+/* Parameter hints */
+.monaco-editor .parameter-hints-widget {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+}
+
+/* Peek view - GitHub style */
+.monaco-editor .peekview-widget {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+}
+
+.monaco-editor .peekview-widget .head {
+    background-color: #161b22;
+}
+
+/* ====== CUSTOM ENHANCEMENTS ====== */
+/* Line numbers with GitHub style */
+.monaco-editor .line-numbers {
+    color: #6e7681;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+    color: #c9d1d9;
+}
+
+/* Cursor - GitHub green */
+.monaco-editor .cursor {
+    background-color: #7ee787;
+    border-color: #7ee787;
+}
+
+/* GitHub-style link colors */
+.monaco-editor .detected-link {
+    color: #79c0ff !important;
+    text-decoration: underline;
+}
+
+.monaco-editor .detected-link:hover {
+    color: #a5d6ff !important;
+}
+
+/* Success/Error badges */
+.badge-success {
+    background-color: #238636;
+    color: #ffffff;
+}
+
+.badge-error {
+    background-color: #da3633;
+    color: #ffffff;
+}
+
+.badge-warning {
+    background-color: #f0883e;
+    color: #1f2328;
+}

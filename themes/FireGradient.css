@@ -1,0 +1,375 @@
+/* 🔥 FIRE GRADIENT THEME 🔥 */
+/* Tailwind-inspired theme with rich blacks transitioning to warm oranges and yellows */
+
+/* ====== MONACO EDITOR SYNTAX COLORS ====== */
+/* Keywords - Engineering Orange */
+.mtk1 { color: #ff4a4a; }
+
+/* Strings - Selective Yellow */
+.mtk2 { color: #ffba08; }
+
+/* Comments - Rich Black with high opacity */
+.mtk3 { color: rgba(168, 180, 246, 0.6); }
+
+/* Numbers - Orange Web */
+.mtk4 { color: #faa307; }
+
+/* Functions - Sinopia */
+.mtk5 { color: #fd4a1d; }
+
+/* Variables - Princeton Orange */
+.mtk6 { color: #faa434; }
+
+/* Operators - Persimmon Light */
+.mtk7 { color: #fd9a5c; }
+
+/* Types - Penn Red */
+.mtk8 { color: #fc2f36; }
+
+/* Control Keywords - Engineering Orange */
+.mtk9 { color: #ff0e0e; }
+
+/* Brackets/Punctuation - Selective Yellow Light */
+.mtk10 { color: #ffc83b; }
+
+/* Classes - Rosewood */
+.mtk11 { color: #f7192f; }
+
+/* Methods - Sinopia */
+.mtk12 { color: #dc2f02; }
+
+/* Constants - Orange Web */
+.mtk13 { color: #faa307; }
+
+/* Parameters - Princeton Orange Light */
+.mtk14 { color: #fbbb67; }
+
+/* Regex - Selective Yellow */
+.mtk15 { color: #ffba08; }
+
+/* Decorators - Chocolate Cosmos */
+.mtk16 { color: #d9185b; }
+
+/* Additional fire gradient tokens */
+.mtk17 { color: #fbb637; } /* Orange Web Light */
+.mtk18 { color: #fc7826; } /* Persimmon */
+.mtk19 { color: #fd7479; } /* Penn Red Light */
+.mtk20 { color: #f96574; } /* Rosewood Light */
+.mtk21 { color: #ed5d90; } /* Chocolate Cosmos Light */
+.mtk22 { color: #ffc83b; } /* Selective Yellow */
+.mtk23 { color: #fd4a1d; } /* Sinopia */
+.mtk24 { color: #faa434; } /* Princeton Orange */
+.mtk25 { color: #ffe39d; } /* Light Yellow */
+
+/* ====== MONACO EDITOR DECORATIONS ====== */
+/* Git decorations - Fire gradient style */
+.monaco-decoration-itemColor--ec98p9 {
+    color: #ffba08; /* Untracked - bright yellow */
+}
+.monaco-decoration-itemBadge--ec98p9::after {
+    content: "U";
+    color: #ffba08;
+    background: rgba(255, 186, 8, 0.2);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(255, 186, 8, 0.3);
+}
+
+.monaco-decoration-itemColor--ew9twd {
+    color: #faa307; /* Modified files - orange */
+}
+
+.monaco-decoration-itemColor-kkyaq5 {
+    color: #f48c06; /* Staged files - princeton orange */
+}
+.monaco-decoration-itemBadge-kkyaq5::after {
+    content: "M";
+    color: #f48c06;
+    background: rgba(244, 140, 6, 0.2);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(244, 140, 6, 0.3);
+}
+
+.monaco-decoration-bubbleBadge--p0w8yl::after {
+    content: "";
+    color: #ff0e0e;
+    font-family: codicon;
+    font-size: 14px;
+    margin-right: 14px;
+    opacity: 0.9;
+    text-shadow: 0 0 10px rgba(255, 14, 14, 0.5);
+}
+
+.monaco-decoration-itemColor--hkk8zx {
+    color: #fbb637; /* Saved changes - light orange */
+}
+
+.monaco-decoration-itemColor--xodzlv {
+    color: #ffba08; /* New additions - yellow */
+}
+
+/* ====== MONACO EDITOR ELEMENTS ====== */
+.monaco-editor .codelens-decoration {
+    color: #faa307;
+    color: var(--vscode-editorCodeLens-foreground);
+    display: inline-block;
+    font-family: var(--vscode-editorCodeLens-fontFamily), var(--vscode-editorCodeLens-fontFamilyDefault);
+    font-feature-settings: var(--vscode-editorCodeLens-fontFeatureSettings);
+    font-size: var(--vscode-editorCodeLens-fontSize);
+    line-height: var(--vscode-editorCodeLens-lineHeight);
+    overflow: hidden;
+    padding-right: calc(var(--vscode-editorCodeLens-fontSize)* .5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.monaco-editor .codelens-decoration:hover {
+    color: #ffba08;
+    text-shadow: 0 0 10px rgba(255, 186, 8, 0.5);
+}
+
+.monaco-editor .view-overlays .current-line {
+    border: 1px solid rgba(244, 140, 6, 0.3);
+    background: rgba(220, 47, 2, 0.05);
+}
+
+/* Fire gradient diff colors */
+.monaco-diff-editor .insert {
+    background-color: rgba(250, 163, 7, 0.2);
+}
+
+.monaco-diff-editor .delete {
+    background-color: rgba(208, 0, 0, 0.2);
+}
+
+/* Selection colors with fire glow */
+.monaco-editor .selected-text {
+    background-color: rgba(232, 93, 4, 0.3);
+    box-shadow: inset 0 0 15px rgba(232, 93, 4, 0.2);
+}
+
+/* Find match highlights */
+.monaco-editor .findMatch {
+    background-color: rgba(255, 186, 8, 0.35);
+    border: 1px solid rgba(255, 186, 8, 0.6);
+}
+
+/* Bracket matching - Fire style with glow */
+.monaco-editor .bracket-match {
+    background-color: rgba(250, 163, 7, 0.25);
+    border: 1px solid #faa307;
+    box-shadow: 0 0 10px rgba(250, 163, 7, 0.4);
+}
+
+/* Error and warning underlines with fire glow */
+.monaco-editor .squiggly-error {
+    border-bottom: 2px solid #d00000;
+    text-decoration: underline;
+    text-decoration-color: #d00000;
+    text-decoration-style: wavy;
+}
+
+.monaco-editor .squiggly-warning {
+    border-bottom: 2px solid #e85d04;
+    text-decoration: underline;
+    text-decoration-color: #e85d04;
+    text-decoration-style: wavy;
+}
+
+.monaco-editor .squiggly-info {
+    border-bottom: 2px solid #f48c06;
+    text-decoration: underline;
+    text-decoration-color: #f48c06;
+    text-decoration-style: wavy;
+}
+
+/* Scrollbar styling with fire gradient */
+.monaco-scrollable-element > .scrollbar > .slider {
+    background: linear-gradient(180deg, #dc2f02, #e85d04, #f48c06);
+    border-radius: 4px;
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:hover {
+    background: linear-gradient(180deg, #fd4a1d, #fc7826, #faa434);
+    box-shadow: 0 0 12px rgba(232, 93, 4, 0.5);
+}
+
+/* Minimap colors */
+.monaco-editor .minimap-decorations .minimap-decoration-error {
+    background: #d00000;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-warning {
+    background: #e85d04;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-info {
+    background: #f48c06;
+}
+
+/* Indentation guides with fire glow */
+.monaco-editor .lines-content .cigr {
+    box-shadow: 1px 0 0 0 rgba(250, 163, 7, 0.2) inset;
+}
+
+.monaco-editor .lines-content .cigra {
+    box-shadow: 1px 0 0 0 rgba(250, 163, 7, 0.5) inset, 
+                0 0 8px rgba(250, 163, 7, 0.3);
+}
+
+/* Suggest widget - Fire theme */
+.monaco-editor .suggest-widget {
+    background-color: #03071e;
+    border: 1px solid rgba(232, 93, 4, 0.4);
+    color: #ffe39d;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7),
+                0 0 20px rgba(232, 93, 4, 0.2);
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused {
+    background-color: rgba(232, 93, 4, 0.25);
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row:hover {
+    background-color: rgba(244, 140, 6, 0.2);
+}
+
+/* Parameter hints */
+.monaco-editor .parameter-hints-widget {
+    background-color: #03071e;
+    border: 1px solid rgba(250, 163, 7, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+}
+
+/* Peek view - Fire theme */
+.monaco-editor .peekview-widget {
+    background-color: #03071e;
+    border: 1px solid rgba(232, 93, 4, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+}
+
+.monaco-editor .peekview-widget .head {
+    background-color: #0b1b73;
+    border-bottom: 1px solid rgba(232, 93, 4, 0.3);
+}
+
+/* ====== CUSTOM ENHANCEMENTS ====== */
+/* Line numbers with fire gradient theme */
+.monaco-editor .line-numbers {
+    color: #880f39;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+    color: #faa307;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(250, 163, 7, 0.4);
+}
+
+/* Cursor - Fire orange with glow */
+.monaco-editor .cursor {
+    background-color: #ffba08;
+    border-color: #ffba08;
+    box-shadow: 0 0 10px rgba(255, 186, 8, 0.7);
+}
+
+/* Fire theme link colors */
+.monaco-editor .detected-link {
+    color: #f48c06 !important;
+    text-decoration: underline;
+}
+
+.monaco-editor .detected-link:hover {
+    color: #faa307 !important;
+    text-shadow: 0 0 10px rgba(250, 163, 7, 0.5);
+}
+
+/* Status badges with fire glow */
+.badge-success {
+    background-color: #faa307;
+    color: #03071e;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(250, 163, 7, 0.5);
+}
+
+.badge-error {
+    background-color: #d00000;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(208, 0, 0, 0.5);
+}
+
+.badge-warning {
+    background-color: #e85d04;
+    color: #03071e;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(232, 93, 4, 0.5);
+}
+
+.badge-info {
+    background-color: #f48c06;
+    color: #03071e;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(244, 140, 6, 0.5);
+}
+
+/* Widget shadows for depth */
+.monaco-editor .overflowingContentWidgets {
+    filter: drop-shadow(0 8px 20px rgba(232, 93, 4, 0.3));
+}
+
+/* Fire glow effects for special tokens */
+.mtk-glow-orange {
+    text-shadow: 0 0 10px rgba(232, 93, 4, 0.6);
+}
+
+.mtk-glow-yellow {
+    text-shadow: 0 0 10px rgba(255, 186, 8, 0.6);
+}
+
+.mtk-glow-red {
+    text-shadow: 0 0 10px rgba(208, 0, 0, 0.6);
+}
+
+/* Selection highlight with fire gradient */
+.monaco-editor .selectionHighlight {
+    background-color: rgba(244, 140, 6, 0.2);
+    border: 1px solid rgba(244, 140, 6, 0.4);
+}
+
+/* Word highlight */
+.monaco-editor .wordHighlight {
+    background-color: rgba(250, 163, 7, 0.2);
+    border: 1px solid rgba(250, 163, 7, 0.4);
+}
+
+.monaco-editor .wordHighlightStrong {
+    background-color: rgba(208, 0, 0, 0.2);
+    border: 1px solid rgba(208, 0, 0, 0.4);
+}
+
+/* Gradient accent bar */
+.fire-gradient-accent {
+    background: linear-gradient(90deg, 
+        #03071e 0%,
+        #370617 20%,
+        #6a040f 35%,
+        #9d0208 50%,
+        #d00000 60%,
+        #dc2f02 70%,
+        #e85d04 80%,
+        #f48c06 90%,
+        #ffba08 100%);
+    height: 3px;
+    border-radius: 2px;
+}

@@ -1,0 +1,408 @@
+/* 🌿 FOREST DEPTH THEME 🌿 */
+/* Nature-inspired theme with dark greens to bright mindaro gradient */
+
+/* ====== MONACO EDITOR SYNTAX COLORS ====== */
+/* Keywords - Moss Green */
+.mtk1 { color: #90a955; }
+
+/* Strings - Mindaro */
+.mtk2 { color: #ecf39e; }
+
+/* Comments - Hunter Green with opacity */
+.mtk3 { color: rgba(79, 119, 45, 0.7); }
+
+/* Numbers - Fern Green */
+.mtk4 { color: #4f772d; }
+
+/* Functions - Moss Green Light */
+.mtk5 { color: #a5bd73; }
+
+/* Variables - Mindaro */
+.mtk6 { color: #ecf39e; }
+
+/* Operators - Fern Green */
+.mtk7 { color: #4f772d; }
+
+/* Types - Hunter Green */
+.mtk8 { color: #31572c; }
+
+/* Control Keywords - Moss Green Bright */
+.mtk9 { color: #9fb961; }
+
+/* Brackets/Punctuation - Mindaro Soft */
+.mtk10 { color: #e8f08a; }
+
+/* Classes - Hunter Green Light */
+.mtk11 { color: #4a6b40; }
+
+/* Methods - Fern Green Bright */
+.mtk12 { color: #628c3a; }
+
+/* Constants - Moss Green */
+.mtk13 { color: #90a955; }
+
+/* Parameters - Mindaro Light */
+.mtk14 { color: #f3f7c0; }
+
+/* Regex - Moss Green */
+.mtk15 { color: #90a955; }
+
+/* Decorators - Hunter Green */
+.mtk16 { color: #31572c; }
+
+/* Additional forest gradient tokens */
+.mtk17 { color: #9fb961; } /* Light Moss */
+.mtk18 { color: #628c3a; } /* Bright Fern */
+.mtk19 { color: #4a6b40; } /* Medium Hunter */
+.mtk20 { color: #e8f08a; } /* Soft Yellow */
+.mtk21 { color: #a5bd73; } /* Light Green */
+.mtk22 { color: #f3f7c0; } /* Very Light Yellow */
+.mtk23 { color: #7a9747; } /* Deep Moss */
+.mtk24 { color: #3d6330; } /* Deep Fern */
+.mtk25 { color: #264520; } /* Very Dark Green */
+
+/* ====== MONACO EDITOR DECORATIONS ====== */
+/* Git decorations - Forest style */
+.monaco-decoration-itemColor--ec98p9 {
+    color: #ecf39e; /* Untracked - bright mindaro */
+}
+.monaco-decoration-itemBadge--ec98p9::after {
+    content: "U";
+    color: #ecf39e;
+    background: rgba(236, 243, 158, 0.2);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(236, 243, 158, 0.3);
+}
+
+.monaco-decoration-itemColor--ew9twd {
+    color: #90a955; /* Modified files - moss green */
+}
+
+.monaco-decoration-itemColor-kkyaq5 {
+    color: #4f772d; /* Staged files - fern green */
+}
+.monaco-decoration-itemBadge-kkyaq5::after {
+    content: "M";
+    color: #4f772d;
+    background: rgba(79, 119, 45, 0.2);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(79, 119, 45, 0.3);
+}
+
+.monaco-decoration-bubbleBadge--p0w8yl::after {
+    content: "";
+    color: #31572c;
+    font-family: codicon;
+    font-size: 14px;
+    margin-right: 14px;
+    opacity: 0.9;
+    text-shadow: 0 0 8px rgba(49, 87, 44, 0.5);
+}
+
+.monaco-decoration-itemColor--hkk8zx {
+    color: #90a955; /* Saved changes - moss green */
+}
+
+.monaco-decoration-itemColor--xodzlv {
+    color: #ecf39e; /* New additions - mindaro */
+}
+
+/* ====== MONACO EDITOR ELEMENTS ====== */
+.monaco-editor .codelens-decoration {
+    color: #90a955;
+    color: var(--vscode-editorCodeLens-foreground);
+    display: inline-block;
+    font-family: var(--vscode-editorCodeLens-fontFamily), var(--vscode-editorCodeLens-fontFamilyDefault);
+    font-feature-settings: var(--vscode-editorCodeLens-fontFeatureSettings);
+    font-size: var(--vscode-editorCodeLens-fontSize);
+    line-height: var(--vscode-editorCodeLens-lineHeight);
+    overflow: hidden;
+    padding-right: calc(var(--vscode-editorCodeLens-fontSize)* .5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.monaco-editor .codelens-decoration:hover {
+    color: #ecf39e;
+    text-shadow: 0 0 8px rgba(236, 243, 158, 0.4);
+}
+
+.monaco-editor .view-overlays .current-line {
+    border: 1px solid rgba(144, 169, 85, 0.3);
+    background: rgba(49, 87, 44, 0.08);
+}
+
+/* Forest gradient diff colors */
+.monaco-diff-editor .insert {
+    background-color: rgba(144, 169, 85, 0.2);
+}
+
+.monaco-diff-editor .delete {
+    background-color: rgba(49, 87, 44, 0.2);
+}
+
+/* Selection colors with forest glow */
+.monaco-editor .selected-text {
+    background-color: rgba(79, 119, 45, 0.3);
+    box-shadow: inset 0 0 12px rgba(79, 119, 45, 0.15);
+}
+
+/* Find match highlights */
+.monaco-editor .findMatch {
+    background-color: rgba(236, 243, 158, 0.3);
+    border: 1px solid rgba(236, 243, 158, 0.5);
+}
+
+/* Bracket matching - Forest style with glow */
+.monaco-editor .bracket-match {
+    background-color: rgba(144, 169, 85, 0.25);
+    border: 1px solid #90a955;
+    box-shadow: 0 0 10px rgba(144, 169, 85, 0.3);
+}
+
+/* Error and warning underlines with nature colors */
+.monaco-editor .squiggly-error {
+    border-bottom: 2px solid #8b4513;
+    text-decoration: underline;
+    text-decoration-color: #8b4513;
+    text-decoration-style: wavy;
+}
+
+.monaco-editor .squiggly-warning {
+    border-bottom: 2px solid #c8a020;
+    text-decoration: underline;
+    text-decoration-color: #c8a020;
+    text-decoration-style: wavy;
+}
+
+.monaco-editor .squiggly-info {
+    border-bottom: 2px solid #4f772d;
+    text-decoration: underline;
+    text-decoration-color: #4f772d;
+    text-decoration-style: wavy;
+}
+
+/* Scrollbar styling with forest gradient */
+.monaco-scrollable-element > .scrollbar > .slider {
+    background: linear-gradient(180deg, #4f772d, #90a955, #ecf39e);
+    border-radius: 4px;
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:hover {
+    background: linear-gradient(180deg, #628c3a, #a5bd73, #f3f7c0);
+    box-shadow: 0 0 12px rgba(144, 169, 85, 0.4);
+}
+
+/* Minimap colors */
+.monaco-editor .minimap-decorations .minimap-decoration-error {
+    background: #8b4513;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-warning {
+    background: #c8a020;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-info {
+    background: #4f772d;
+}
+
+/* Indentation guides with forest glow */
+.monaco-editor .lines-content .cigr {
+    box-shadow: 1px 0 0 0 rgba(144, 169, 85, 0.2) inset;
+}
+
+.monaco-editor .lines-content .cigra {
+    box-shadow: 1px 0 0 0 rgba(144, 169, 85, 0.5) inset, 
+                0 0 8px rgba(144, 169, 85, 0.2);
+}
+
+/* Suggest widget - Forest theme */
+.monaco-editor .suggest-widget {
+    background-color: #132a13;
+    border: 1px solid rgba(79, 119, 45, 0.5);
+    color: #ecf39e;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7),
+                0 0 16px rgba(79, 119, 45, 0.2);
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused {
+    background-color: rgba(79, 119, 45, 0.3);
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row:hover {
+    background-color: rgba(144, 169, 85, 0.2);
+}
+
+/* Parameter hints */
+.monaco-editor .parameter-hints-widget {
+    background-color: #132a13;
+    border: 1px solid rgba(144, 169, 85, 0.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+}
+
+/* Peek view - Forest theme */
+.monaco-editor .peekview-widget {
+    background-color: #132a13;
+    border: 1px solid rgba(79, 119, 45, 0.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+}
+
+.monaco-editor .peekview-widget .head {
+    background-color: #31572c;
+    border-bottom: 1px solid rgba(144, 169, 85, 0.3);
+}
+
+/* ====== CUSTOM ENHANCEMENTS ====== */
+/* Line numbers with forest theme */
+.monaco-editor .line-numbers {
+    color: #4f772d;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+    color: #90a955;
+    font-weight: 600;
+    text-shadow: 0 0 8px rgba(144, 169, 85, 0.4);
+}
+
+/* Cursor - Bright mindaro with glow */
+.monaco-editor .cursor {
+    background-color: #ecf39e;
+    border-color: #ecf39e;
+    box-shadow: 0 0 10px rgba(236, 243, 158, 0.6);
+}
+
+/* Forest theme link colors */
+.monaco-editor .detected-link {
+    color: #90a955 !important;
+    text-decoration: underline;
+}
+
+.monaco-editor .detected-link:hover {
+    color: #ecf39e !important;
+    text-shadow: 0 0 8px rgba(236, 243, 158, 0.5);
+}
+
+/* Status badges with forest glow */
+.badge-success {
+    background-color: #90a955;
+    color: #132a13;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(144, 169, 85, 0.4);
+}
+
+.badge-error {
+    background-color: #8b4513;
+    color: #ecf39e;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(139, 69, 19, 0.4);
+}
+
+.badge-warning {
+    background-color: #c8a020;
+    color: #132a13;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(200, 160, 32, 0.4);
+}
+
+.badge-info {
+    background-color: #4f772d;
+    color: #ecf39e;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(79, 119, 45, 0.4);
+}
+
+/* Widget shadows for depth */
+.monaco-editor .overflowingContentWidgets {
+    filter: drop-shadow(0 8px 20px rgba(19, 42, 19, 0.6));
+}
+
+/* Forest glow effects for special tokens */
+.mtk-glow-green {
+    text-shadow: 0 0 10px rgba(144, 169, 85, 0.6);
+}
+
+.mtk-glow-yellow {
+    text-shadow: 0 0 10px rgba(236, 243, 158, 0.6);
+}
+
+.mtk-glow-dark {
+    text-shadow: 0 0 10px rgba(49, 87, 44, 0.6);
+}
+
+/* Selection highlight with forest gradient */
+.monaco-editor .selectionHighlight {
+    background-color: rgba(79, 119, 45, 0.25);
+    border: 1px solid rgba(79, 119, 45, 0.4);
+}
+
+/* Word highlight */
+.monaco-editor .wordHighlight {
+    background-color: rgba(144, 169, 85, 0.2);
+    border: 1px solid rgba(144, 169, 85, 0.4);
+}
+
+.monaco-editor .wordHighlightStrong {
+    background-color: rgba(49, 87, 44, 0.25);
+    border: 1px solid rgba(49, 87, 44, 0.4);
+}
+
+/* Forest gradient accent bar */
+.forest-gradient-accent {
+    background: linear-gradient(90deg, 
+        #132a13 0%,
+        #31572c 25%,
+        #4f772d 50%,
+        #90a955 75%,
+        #ecf39e 100%);
+    height: 3px;
+    border-radius: 2px;
+}
+
+/* Leaf texture effect (subtle pattern) */
+.forest-texture {
+    background-image: 
+        linear-gradient(45deg, rgba(144, 169, 85, 0.1) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(144, 169, 85, 0.1) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(144, 169, 85, 0.1) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(144, 169, 85, 0.1) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+/* Depth layers effect */
+.forest-layer-dark {
+    color: #132a13;
+}
+
+.forest-layer-deep {
+    color: #31572c;
+}
+
+.forest-layer-mid {
+    color: #4f772d;
+}
+
+.forest-layer-light {
+    color: #90a955;
+}
+
+.forest-layer-bright {
+    color: #ecf39e;
+}
+
+/* Organic border radius */
+.forest-organic-border {
+    border-radius: 8px 12px 10px 14px;
+}

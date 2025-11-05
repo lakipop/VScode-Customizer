@@ -1,0 +1,355 @@
+/* 🌃 MODERN NIGHT THEME 🌃 */
+/* Dark purple, red, and blue variants with night sky aesthetics */
+
+/* ====== MONACO EDITOR SYNTAX COLORS ====== */
+/* Keywords - Deep Purple */
+.mtk1 { color: #bb86fc; }
+
+/* Strings - Neon Pink */
+.mtk2 { color: #ff6ac1; }
+
+/* Comments - Soft Gray-Blue with opacity */
+.mtk3 { color: rgba(132, 146, 166, 0.75); }
+
+/* Numbers - Electric Blue */
+.mtk4 { color: #82aaff; }
+
+/* Functions - Bright Cyan */
+.mtk5 { color: #89ddff; }
+
+/* Variables - Light Purple */
+.mtk6 { color: #c792ea; }
+
+/* Operators - Sky Blue */
+.mtk7 { color: #89ddff; }
+
+/* Types - Orange-Red */
+.mtk8 { color: #f78c6c; }
+
+/* Control Keywords - Hot Pink */
+.mtk9 { color: #ff5370; }
+
+/* Brackets/Punctuation - Light Blue */
+.mtk10 { color: #89ddff; }
+
+/* Classes - Bright Purple */
+.mtk11 { color: #bb86fc; }
+
+/* Methods - Teal Cyan */
+.mtk12 { color: #64ffda; }
+
+/* Constants - Deep Blue */
+.mtk13 { color: #82aaff; }
+
+/* Parameters - Lavender */
+.mtk14 { color: #c3e88d; }
+
+/* Regex - Neon Green */
+.mtk15 { color: #c3e88d; }
+
+/* Decorators - Rose Red */
+.mtk16 { color: #f07178; }
+
+/* Additional night theme tokens */
+.mtk17 { color: #ffcb6b; } /* Yellow Gold */
+.mtk18 { color: #ff5370; } /* Hot Red */
+.mtk19 { color: #bb86fc; } /* Violet */
+.mtk20 { color: #64ffda; } /* Aqua */
+.mtk21 { color: #ff6ac1; } /* Magenta */
+.mtk22 { color: #82aaff; } /* Sky Blue */
+.mtk23 { color: #f78c6c; } /* Coral */
+.mtk24 { color: #c792ea; } /* Light Purple */
+.mtk25 { color: #89ddff; } /* Cyan */
+
+/* ====== MONACO EDITOR DECORATIONS ====== */
+/* Git decorations - Night theme style */
+.monaco-decoration-itemColor--ec98p9 {
+    color: #64ffda; /* Untracked - bright cyan */
+}
+.monaco-decoration-itemBadge--ec98p9::after {
+    content: "U";
+    color: #64ffda;
+    background: rgba(100, 255, 218, 0.15);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 600;
+    box-shadow: 0 0 8px rgba(100, 255, 218, 0.3);
+}
+
+.monaco-decoration-itemColor--ew9twd {
+    color: #c3e88d; /* Modified files - neon green */
+}
+
+.monaco-decoration-itemColor-kkyaq5 {
+    color: #ffcb6b; /* Staged files - gold */
+}
+.monaco-decoration-itemBadge-kkyaq5::after {
+    content: "M";
+    color: #ffcb6b;
+    background: rgba(255, 203, 107, 0.15);
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-weight: 600;
+    box-shadow: 0 0 8px rgba(255, 203, 107, 0.3);
+}
+
+.monaco-decoration-bubbleBadge--p0w8yl::after {
+    content: "";
+    color: #ff5370;
+    font-family: codicon;
+    font-size: 14px;
+    margin-right: 14px;
+    opacity: 0.9;
+    text-shadow: 0 0 8px rgba(255, 83, 112, 0.5);
+}
+
+.monaco-decoration-itemColor--hkk8zx {
+    color: #c3e88d; /* Saved changes - green */
+}
+
+.monaco-decoration-itemColor--xodzlv {
+    color: #64ffda; /* New additions - cyan */
+}
+
+/* ====== MONACO EDITOR ELEMENTS ====== */
+.monaco-editor .codelens-decoration {
+    color: #bb86fc;
+    color: var(--vscode-editorCodeLens-foreground);
+    display: inline-block;
+    font-family: var(--vscode-editorCodeLens-fontFamily), var(--vscode-editorCodeLens-fontFamilyDefault);
+    font-feature-settings: var(--vscode-editorCodeLens-fontFeatureSettings);
+    font-size: var(--vscode-editorCodeLens-fontSize);
+    line-height: var(--vscode-editorCodeLens-lineHeight);
+    overflow: hidden;
+    padding-right: calc(var(--vscode-editorCodeLens-fontSize)* .5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.monaco-editor .codelens-decoration:hover {
+    color: #c792ea;
+    text-shadow: 0 0 8px rgba(199, 146, 234, 0.5);
+}
+
+.monaco-editor .view-overlays .current-line {
+    border: 1px solid rgba(187, 134, 252, 0.2);
+    background: rgba(187, 134, 252, 0.03);
+}
+
+/* Night theme diff colors */
+.monaco-diff-editor .insert {
+    background-color: rgba(100, 255, 218, 0.15);
+}
+
+.monaco-diff-editor .delete {
+    background-color: rgba(255, 83, 112, 0.15);
+}
+
+/* Selection colors with glow */
+.monaco-editor .selected-text {
+    background-color: rgba(187, 134, 252, 0.25);
+    box-shadow: inset 0 0 10px rgba(187, 134, 252, 0.1);
+}
+
+/* Find match highlights */
+.monaco-editor .findMatch {
+    background-color: rgba(255, 203, 107, 0.3);
+    border: 1px solid rgba(255, 203, 107, 0.5);
+}
+
+/* Bracket matching - Night style with glow */
+.monaco-editor .bracket-match {
+    background-color: rgba(137, 221, 255, 0.2);
+    border: 1px solid #89ddff;
+    box-shadow: 0 0 8px rgba(137, 221, 255, 0.3);
+}
+
+/* Error and warning underlines with glow */
+.monaco-editor .squiggly-error {
+    border-bottom: 2px solid #ff5370;
+    text-decoration: underline;
+    text-decoration-color: #ff5370;
+    text-decoration-style: wavy;
+}
+
+.monaco-editor .squiggly-warning {
+    border-bottom: 2px solid #ffcb6b;
+    text-decoration: underline;
+    text-decoration-color: #ffcb6b;
+    text-decoration-style: wavy;
+}
+
+.monaco-editor .squiggly-info {
+    border-bottom: 2px solid #82aaff;
+    text-decoration: underline;
+    text-decoration-color: #82aaff;
+    text-decoration-style: wavy;
+}
+
+/* Scrollbar styling with neon effect */
+.monaco-scrollable-element > .scrollbar > .slider {
+    background: rgba(187, 134, 252, 0.4);
+    border-radius: 4px;
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:hover {
+    background: rgba(187, 134, 252, 0.6);
+    box-shadow: 0 0 10px rgba(187, 134, 252, 0.4);
+}
+
+/* Minimap colors */
+.monaco-editor .minimap-decorations .minimap-decoration-error {
+    background: #ff5370;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-warning {
+    background: #ffcb6b;
+}
+
+.monaco-editor .minimap-decorations .minimap-decoration-info {
+    background: #82aaff;
+}
+
+/* Indentation guides with subtle glow */
+.monaco-editor .lines-content .cigr {
+    box-shadow: 1px 0 0 0 rgba(137, 221, 255, 0.15) inset;
+}
+
+.monaco-editor .lines-content .cigra {
+    box-shadow: 1px 0 0 0 rgba(137, 221, 255, 0.4) inset, 
+                0 0 5px rgba(137, 221, 255, 0.2);
+}
+
+/* Suggest widget - Night theme */
+.monaco-editor .suggest-widget {
+    background-color: #1a1b26;
+    border: 1px solid rgba(187, 134, 252, 0.3);
+    color: #c0caf5;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5),
+                0 0 16px rgba(187, 134, 252, 0.1);
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused {
+    background-color: rgba(187, 134, 252, 0.2);
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row:hover {
+    background-color: rgba(137, 221, 255, 0.15);
+}
+
+/* Parameter hints */
+.monaco-editor .parameter-hints-widget {
+    background-color: #1a1b26;
+    border: 1px solid rgba(137, 221, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Peek view - Night theme */
+.monaco-editor .peekview-widget {
+    background-color: #16161e;
+    border: 1px solid rgba(187, 134, 252, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+.monaco-editor .peekview-widget .head {
+    background-color: #1a1b26;
+    border-bottom: 1px solid rgba(187, 134, 252, 0.2);
+}
+
+/* ====== CUSTOM ENHANCEMENTS ====== */
+/* Line numbers with night theme */
+.monaco-editor .line-numbers {
+    color: #545c7e;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+    color: #bb86fc;
+    font-weight: 600;
+    text-shadow: 0 0 8px rgba(187, 134, 252, 0.3);
+}
+
+/* Cursor - Neon purple with glow */
+.monaco-editor .cursor {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.6);
+}
+
+/* Night theme link colors */
+.monaco-editor .detected-link {
+    color: #82aaff !important;
+    text-decoration: underline;
+}
+
+.monaco-editor .detected-link:hover {
+    color: #89ddff !important;
+    text-shadow: 0 0 8px rgba(130, 170, 255, 0.5);
+}
+
+/* Status badges with glow */
+.badge-success {
+    background-color: #64ffda;
+    color: #0a0e14;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(100, 255, 218, 0.4);
+}
+
+.badge-error {
+    background-color: #ff5370;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(255, 83, 112, 0.4);
+}
+
+.badge-warning {
+    background-color: #ffcb6b;
+    color: #0a0e14;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(255, 203, 107, 0.4);
+}
+
+.badge-info {
+    background-color: #82aaff;
+    color: #0a0e14;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(130, 170, 255, 0.4);
+}
+
+/* Widget shadows for depth */
+.monaco-editor .overflowingContentWidgets {
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.8));
+}
+
+/* Glow effects for special tokens */
+.mtk-glow-purple {
+    text-shadow: 0 0 8px rgba(187, 134, 252, 0.5);
+}
+
+.mtk-glow-cyan {
+    text-shadow: 0 0 8px rgba(137, 221, 255, 0.5);
+}
+
+.mtk-glow-pink {
+    text-shadow: 0 0 8px rgba(255, 106, 193, 0.5);
+}
+
+/* Selection highlight with multiple colors */
+.monaco-editor .selectionHighlight {
+    background-color: rgba(137, 221, 255, 0.2);
+    border: 1px solid rgba(137, 221, 255, 0.3);
+}
+
+/* Word highlight */
+.monaco-editor .wordHighlight {
+    background-color: rgba(255, 203, 107, 0.15);
+    border: 1px solid rgba(255, 203, 107, 0.3);
+}
+
+.monaco-editor .wordHighlightStrong {
+    background-color: rgba(255, 83, 112, 0.15);
+    border: 1px solid rgba(255, 83, 112, 0.3);
+}

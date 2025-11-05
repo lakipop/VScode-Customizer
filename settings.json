@@ -22,14 +22,45 @@
     "workbench.iconTheme": "symbols",
 
   "workbench.colorCustomizations": {
-    "input.background": "#1e1e1e",
+    // Dialog & Modal Windows (Connection Dialog, etc.)
+    "dialog.background": "#1a1a1a",
+    "dialog.foreground": "#ffffff",
+    "quickInput.background": "#1a1a1a",
+    "quickInput.list.background": "#1a1a1a",
+    
+    // Input Fields & Labels - FIX for MySQL connection dialog
+    "input.background": "#0a0a0a",
     "input.foreground": "#ffffff",
-    "input.border": "#333333",
+    "input.border": "#444444",
+    "input.placeholderForeground": "#888888",
+    "inputOption.activeForeground": "#ffffff",
+    "inputValidation.infoForeground": "#ffffff",
+    
+    // Labels in dialogs (e.g., "Profile Name", "Host", etc.)
+    "settings.headerForeground": "#ffffff",
+    "settings.modifiedItemIndicator": "#22c55e",
+    "editorWidget.foreground": "#ffffff",
    "dropdown.foreground": "#8aea8f",
     "list.activeSelectionIconForeground": "#4ad651",
     "list.focusAndSelectionOutline": "#C2185B",
     "pickerGroup.foreground": "#2E7D32",
-    "quickInput.foreground": "#2E7D32",
+    
+    // Extension View - FIX for extension reader interface
+    "extensionButton.prominentBackground": "#22c55e",
+    "extensionButton.prominentForeground": "#ffffff",
+    "extensionButton.prominentHoverBackground": "#16a34a",
+    "extensionIcon.starForeground": "#f59e0b",
+    "extensionIcon.verifiedForeground": "#3b82f6",
+    "extensionBadge.remoteBackground": "#1e40af",
+    "extensionBadge.remoteForeground": "#ffffff",
+    "textBlockQuote.background": "#1a1a1a",
+    "textBlockQuote.border": "#444444",
+    "textCodeBlock.background": "#1a1a1a",
+    "textLink.foreground": "#3b82f6",
+    "textLink.activeForeground": "#60a5fa",
+    "textPreformat.foreground": "#e5e5e5",
+    "textSeparator.foreground": "#444444",
+    "quickInput.foreground": "#ffffff",
     "quickInputList.focusIconForeground": "#C2185B",
     "activityBar.background": "#000000",
     "activityBar.foreground": "#51c608",
@@ -52,7 +83,6 @@
     
     "editor.foreground": "#e0e0e0",
      "editorWidget.background": "#1a1a1a",      // Extension panels background
-    "editorWidget.foreground": "#d0d0d0",
      // Extension description and content
     "descriptionForeground": "#ffffff",
     "foreground": "#ffffff",
@@ -114,10 +144,11 @@
 
     "editorGroup.border": "#000000",
     "editorGroup.dropBackground": "#000000"
+
   },
 
     "background.windowBackgrounds": [
-      "d:/Pictures/Wallhaven 23/**"
+      "d:/Pictures/Wallhaven 24/**"
     ],
     
     "background.fullscreen": {
@@ -127,8 +158,8 @@
       "folders": [
        
       ],
-        "opacity": 0.4,
-        "useFront": true,
+        "opacity": 0.25,
+        "useFront": false,
         "size": "cover",
         "position": "center",
         "interval": 10,
@@ -187,6 +218,7 @@
     "editor.dropIntoEditor.preferences": [
 
 
+
     "text.plain"
     ],
     "background.backgroundChangeTime": [
@@ -209,6 +241,7 @@
   "Center Center"
 ],
 "editor.codeActionsOnSave": {
+
 
 
 
@@ -239,6 +272,7 @@
   "vscode_custom_css.imports": [
   "file:///D:/Projects/vsCustomizer/Color.css"
 ],
+  "vscode_custom_css.policy": true,
 "background.editorBackgrounds": [],
 "php.problems.exclude": {},
 "githubPullRequests.pullBranch": "never",
@@ -255,6 +289,7 @@
 },
 "terminal.integrated.suggest.enabled": true,
 "[markdown]": {
+
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -271,5 +306,50 @@
   "markdown": true,
   "scminput": false
 },
-"explorer.confirmDelete": false
+"explorer.confirmDelete": false,
+"github.copilot.chat.codeGeneration.instructionsFiles": [".copilot/instructions.md"],
+    "markdown.validate.enabled": false,
+    "markdownlint.config": {
+        "default": true,
+        "MD001": false,  // disable header increment rule
+        "MD013": false,  // disable line length rule
+        "MD041": false ,  // disable first line should be header rule
+        "MD032": false,  // blanks around lists
+        "MD030":false,
+        "MD031": false,   // blanks around fenced code blocks
+        "MD022": false,   // headers should be surrounded by blank lines
+        "MD040": false,
+        "MD029": false,
+        "MD036": false, 
+        "MD009": false,
+        "MD026": false,
+        "MD046": false,
+        "MD034": false,
+        "MD051": false,
+        "MD033": false,
+        "MD042": false,
+        "MD007":false,
+        "MD024": false,
+        "MD047": false
+
+    },
+    "markdownlint.lintWorkspaceGlobs": [],
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+    
+    ],
+    // Use instructions files instead of inline 'github.copilot.chat.codeGeneration.instructions'.
+    // Move these rules into the file listed in "github.copilot.chat.codeGeneration.instructionsFiles" (for example: ".copilot/instructions.md").
+    "mssql.connectionGroups": [
+      {
+        "name": "ROOT",
+        "id": "693D793E-13E8-406D-B526-721726FA956A"
+      }
+    ],
+    "git.confirmSync": false,
+    "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
+    "workbench.editor.enablePreview": false,
+    "mssql.autoDisableNonTSqlLanguageService": false
 }
+
+
+
