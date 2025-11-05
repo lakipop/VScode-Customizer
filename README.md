@@ -10,12 +10,12 @@ Choose from modern neon themes, nature-inspired palettes, GitHub-style dark mode
 `themes/Color.css`
 
 **Color Palette:**
-![#d2ffd4](https://via.placeholder.com/15/d2ffd4/d2ffd4.png) `#d2ffd4`
-![#91fb95](https://via.placeholder.com/15/91fb95/91fb95.png) `#91fb95`
-![#e538ff](https://via.placeholder.com/15/e538ff/e538ff.png) `#e538ff`
-![#ff8229](https://via.placeholder.com/15/ff8229/ff8229.png) `#ff8229`
-![#64e3ff](https://via.placeholder.com/15/64e3ff/64e3ff.png) `#64e3ff`
-![#fff045](https://via.placeholder.com/15/fff045/fff045.png) `#fff045`
+![#d2ffd4](https://img.shields.io/badge/d2ffd4-d2ffd4?style=flat-square&logo=&logoColor=white)
+![#91fb95](https://img.shields.io/badge/91fb95-91fb95?style=flat-square&logo=&logoColor=white)
+![#e538ff](https://img.shields.io/badge/e538ff-e538ff?style=flat-square&logo=&logoColor=white)
+![#ff8229](https://img.shields.io/badge/ff8229-ff8229?style=flat-square&logo=&logoColor=white)
+![#64e3ff](https://img.shields.io/badge/64e3ff-64e3ff?style=flat-square&logo=&logoColor=white)
+![#fff045](https://img.shields.io/badge/fff045-fff045?style=flat-square&logo=&logoColor=white)
 
 A sleek dark theme with vibrant syntax highlighting and a modern look.
 
@@ -28,12 +28,12 @@ A sleek dark theme with vibrant syntax highlighting and a modern look.
 `themes/Ecotheme.css`
 
 **Color Palette:**
-![#329a37](https://via.placeholder.com/15/329a37/329a37.png) `#329a37`
-![#53c057](https://via.placeholder.com/15/53c057/53c057.png) `#53c057`
-![#0277BD](https://via.placeholder.com/15/0277BD/0277BD.png) `#0277BD`
-![#8D6E63](https://via.placeholder.com/15/8D6E63/8D6E63.png) `#8D6E63`
-![#C2185B](https://via.placeholder.com/15/C2185B/C2185B.png) `#C2185B`
-![#FF8F00](https://via.placeholder.com/15/FF8F00/FF8F00.png) `#FF8F00`
+![#329a37](https://img.shields.io/badge/329a37-329a37?style=flat-square&logo=&logoColor=white)
+![#53c057](https://img.shields.io/badge/53c057-53c057?style=flat-square&logo=&logoColor=white)
+![#0277BD](https://img.shields.io/badge/0277BD-0277BD?style=flat-square&logo=&logoColor=white)
+![#8D6E63](https://img.shields.io/badge/8D6E63-8D6E63?style=flat-square&logo=&logoColor=white)
+![#C2185B](https://img.shields.io/badge/C2185B-C2185B?style=flat-square&logo=&logoColor=white)
+![#FF8F00](https://img.shields.io/badge/FF8F00-FF8F00?style=flat-square&logo=&logoColor=white)
 
 A nature-inspired theme that brings the outdoors to your code editor.
 
@@ -46,12 +46,12 @@ A nature-inspired theme that brings the outdoors to your code editor.
 `themes/GitStyle.css`
 
 **Color Palette:**
-![#79c0ff](https://via.placeholder.com/15/79c0ff/79c0ff.png) `#79c0ff`
-![#7ee787](https://via.placeholder.com/15/7ee787/7ee787.png) `#7ee787`
-![#d2a8ff](https://via.placeholder.com/15/d2a8ff/d2a8ff.png) `#d2a8ff`
-![#ffa657](https://via.placeholder.com/15/ffa657/ffa657.png) `#ffa657`
-![#ff7b72](https://via.placeholder.com/15/ff7b72/ff7b72.png) `#ff7b72`
-![#a5d6ff](https://via.placeholder.com/15/a5d6ff/a5d6ff.png) `#a5d6ff`
+![#79c0ff](https://img.shields.io/badge/79c0ff-79c0ff?style=flat-square&logo=&logoColor=white)
+![#7ee787](https://img.shields.io/badge/7ee787-7ee787?style=flat-square&logo=&logoColor=white)
+![#d2a8ff](https://img.shields.io/badge/d2a8ff-d2a8ff?style=flat-square&logo=&logoColor=white)
+![#ffa657](https://img.shields.io/badge/ffa657-ffa657?style=flat-square&logo=&logoColor=white)
+![#ff7b72](https://img.shields.io/badge/ff7b72-ff7b72?style=flat-square&logo=&logoColor=white)
+![#a5d6ff](https://img.shields.io/badge/a5d6ff-a5d6ff?style=flat-square&logo=&logoColor=white)
 
 GitHub-inspired dark theme with green and red accents.
 
@@ -65,12 +65,12 @@ GitHub-inspired dark theme with green and red accents.
 `themes/ModernNight.css`
 
 **Color Palette:**
-![#bb86fc](https://via.placeholder.com/15/bb86fc/bb86fc.png) `#bb86fc`
-![#ff6ac1](https://via.placeholder.com/15/ff6ac1/ff6ac1.png) `#ff6ac1`
-![#82aaff](https://via.placeholder.com/15/82aaff/82aaff.png) `#82aaff`
-![#89ddff](https://via.placeholder.com/15/89ddff/89ddff.png) `#89ddff`
-![#ff5370](https://via.placeholder.com/15/ff5370/ff5370.png) `#ff5370`
-![#c792ea](https://via.placeholder.com/15/c792ea/c792ea.png) `#c792ea`
+![#bb86fc](https://img.shields.io/badge/bb86fc-bb86fc?style=flat-square&logo=&logoColor=white)
+![#ff6ac1](https://img.shields.io/badge/ff6ac1-ff6ac1?style=flat-square&logo=&logoColor=white)
+![#82aaff](https://img.shields.io/badge/82aaff-82aaff?style=flat-square&logo=&logoColor=white)
+![#89ddff](https://img.shields.io/badge/89ddff-89ddff?style=flat-square&logo=&logoColor=white)
+![#ff5370](https://img.shields.io/badge/ff5370-ff5370?style=flat-square&logo=&logoColor=white)
+![#c792ea](https://img.shields.io/badge/c792ea-c792ea?style=flat-square&logo=&logoColor=white)
 
 Modern dark theme with purple, red, and blue variants creating a night sky aesthetic.
 
@@ -84,12 +84,12 @@ Modern dark theme with purple, red, and blue variants creating a night sky aesth
 `themes/FireGradient.css`
 
 **Color Palette:**
-![#ff4a4a](https://via.placeholder.com/15/ff4a4a/ff4a4a.png) `#ff4a4a`
-![#ffba08](https://via.placeholder.com/15/ffba08/ffba08.png) `#ffba08`
-![#dc2f02](https://via.placeholder.com/15/dc2f02/dc2f02.png) `#dc2f02`
-![#e85d04](https://via.placeholder.com/15/e85d04/e85d04.png) `#e85d04`
-![#f48c06](https://via.placeholder.com/15/f48c06/f48c06.png) `#f48c06`
-![#faa307](https://via.placeholder.com/15/faa307/faa307.png) `#faa307`
+![#ff4a4a](https://img.shields.io/badge/ff4a4a-ff4a4a?style=flat-square&logo=&logoColor=white)
+![#ffba08](https://img.shields.io/badge/ffba08-ffba08?style=flat-square&logo=&logoColor=white)
+![#dc2f02](https://img.shields.io/badge/dc2f02-dc2f02?style=flat-square&logo=&logoColor=white)
+![#e85d04](https://img.shields.io/badge/e85d04-e85d04?style=flat-square&logo=&logoColor=white)
+![#f48c06](https://img.shields.io/badge/f48c06-f48c06?style=flat-square&logo=&logoColor=white)
+![#faa307](https://img.shields.io/badge/faa307-faa307?style=flat-square&logo=&logoColor=white)
 
 Tailwind-inspired warm gradient from rich blacks to bright oranges and yellows.
 
@@ -103,11 +103,11 @@ Tailwind-inspired warm gradient from rich blacks to bright oranges and yellows.
 `themes/ForestDepth.css`
 
 **Color Palette:**
-![#132a13](https://via.placeholder.com/15/132a13/132a13.png) `#132a13`
-![#31572c](https://via.placeholder.com/15/31572c/31572c.png) `#31572c`
-![#4f772d](https://via.placeholder.com/15/4f772d/4f772d.png) `#4f772d`
-![#90a955](https://via.placeholder.com/15/90a955/90a955.png) `#90a955`
-![#ecf39e](https://via.placeholder.com/15/ecf39e/ecf39e.png) `#ecf39e`
+![#132a13](https://img.shields.io/badge/132a13-132a13?style=flat-square&logo=&logoColor=white)
+![#31572c](https://img.shields.io/badge/31572c-31572c?style=flat-square&logo=&logoColor=white)
+![#4f772d](https://img.shields.io/badge/4f772d-4f772d?style=flat-square&logo=&logoColor=white)
+![#90a955](https://img.shields.io/badge/90a955-90a955?style=flat-square&logo=&logoColor=white)
+![#ecf39e](https://img.shields.io/badge/ecf39e-ecf39e?style=flat-square&logo=&logoColor=white)
 
 Nature-inspired green gradient from dark forest to bright mindaro.
 
