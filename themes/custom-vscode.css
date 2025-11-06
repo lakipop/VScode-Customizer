@@ -71,3 +71,25 @@ p {
     color: #ffffff !important;
     background-color: #333333;
 }
+
+/* Fix Gemini Code Assist chat text visibility */
+.interactive-session .interactive-item-container p,
+.interactive-session .interactive-item-container .markdown-body p,
+.interactive-session .interactive-item-container span,
+.interactive-session .interactive-item-container div,
+.interactive-session .interactive-item-container li,
+.interactive-session .interactive-item-container code {
+  color: inherit !important;
+}
+
+/* Ensure Gemini response text is visible */
+.interactive-session .interactive-response p {
+  color: var(--vscode-foreground) !important;
+}
+
+/* Fix Gemini Code Assist specific elements */
+.chat-widget .interactive-item-container p,
+.chat-widget .value p {
+  color: var(--vscode-foreground) !important;
+  background: transparent !important;
+}

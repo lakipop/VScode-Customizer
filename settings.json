@@ -155,7 +155,16 @@
     "statusBar.foreground": "#ffffffe2",
 
     "editorGroup.border": "#000000",
-    "editorGroup.dropBackground": "#000000"
+    "editorGroup.dropBackground": "#000000",
+
+    // Inside workbench.colorCustomizations:
+    "chat.requestBackground": "#1a1a1a",
+    "chat.requestForeground": "#ffffff",
+    "chat.responseBackground": "#0a0a0a", 
+    "chat.responseForeground": "#e0e0e0",
+    "interactive.activeCodeBorder": "#22c55e",
+    "interactive.inactiveCodeBorder": "#444444"
+
   },
 
     "background.windowBackgrounds": [
