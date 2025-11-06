@@ -1,0 +1,73 @@
+/* Custom CSS to fix extension marketplace text visibility */
+
+/* Force white text color for all extension description content */
+.extension-editor .monaco-editor,
+.extension-editor .body,
+.extension-editor .description,
+.extension-editor .details,
+.extension-editor .markdown-body,
+.extension-editor .content,
+.extension-editor p,
+.extension-editor h1,
+.extension-editor h2,
+.extension-editor h3,
+.extension-editor h4,
+.extension-editor h5,
+.extension-editor h6,
+.extension-editor li,
+.extension-editor span,
+.extension-editor div,
+.extension-editor pre,
+.extension-editor code {
+  color: #ffffff !important;
+}
+
+/* Extension webview content */
+.webview .monaco-workbench .part.editor > .content .editor-group-container > .editor-group > .editor-container .webview-content,
+.webview iframe,
+.webview body {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Extension details page background */
+.extension-editor {
+  background: #000000 !important;
+}
+
+/* Links in extension description */
+.extension-editor a {
+  color: #3b82f6 !important;
+}
+
+/* Code blocks in extension description */
+.extension-editor code,
+.extension-editor pre code {
+  background: #1a1a1a !important;
+  color: #22c55e !important;
+  border: 1px solid #333333 !important;
+}
+
+/* Marketplace sidebar extension list */
+.extensions-list .monaco-list-row {
+  color: #ffffff !important;
+}
+
+.extensions-list .monaco-list-row .name {
+  color: #ffffff !important;
+}
+
+.extensions-list .monaco-list-row .description {
+  color: #cccccc !important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #ffffff !important;
+    background-color: #333333;
+}

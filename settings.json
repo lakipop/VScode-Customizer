@@ -1,5 +1,4 @@
 {
-
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -53,12 +52,23 @@
     "extensionIcon.verifiedForeground": "#3b82f6",
     "extensionBadge.remoteBackground": "#1e40af",
     "extensionBadge.remoteForeground": "#ffffff",
+    
+    // Extension Details Page - Fix for text visibility with background image
+    "extensionEditor.background": "#000000",    // Solid black background (blocks image)
+    "descriptionForeground": "#ffffff",         // White text for descriptions
+    
+    // Webview styling for extension descriptions (blocks background image)
+    "webview.background": "#000000",            // Solid black for webviews
+    
+    // Text and code blocks in extension description
     "textBlockQuote.background": "#1a1a1a",
     "textBlockQuote.border": "#444444",
+    "textBlockQuote.foreground": "#ffffff",     // Force white text in quotes
     "textCodeBlock.background": "#1a1a1a",
+    "textCodeBlock.foreground": "#ffffff",      // Force white text in code blocks
     "textLink.foreground": "#3b82f6",
     "textLink.activeForeground": "#60a5fa",
-    "textPreformat.foreground": "#e5e5e5",
+    "textPreformat.foreground": "#ffffff",
     "textSeparator.foreground": "#444444",
     "quickInput.foreground": "#ffffff",
     "quickInputList.focusIconForeground": "#C2185B",
@@ -72,6 +82,11 @@
     "sideBar.foreground": "#fffdfdc8",
     "sideBarSectionHeader.background": "#000000ae",
     "sideBarSectionHeader.foreground": "#f7f7f7",
+    
+    // Extension sidebar list items - better visibility
+    "list.hoverBackground": "#1a1a1a",
+    "list.hoverForeground": "#ffffff",
+    
     "editorGroup.background": "#070a07ae",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGroupHeader.tabsBorder": "#030303",
@@ -83,10 +98,7 @@
     
     "editor.foreground": "#e0e0e0",
      "editorWidget.background": "#1a1a1a",      // Extension panels background
-     // Extension description and content
-    "descriptionForeground": "#ffffff",
-    "foreground": "#ffffff",
-    
+     
     "editorLineNumber.foreground": "#18ff2788",
     "editorLineNumber.background": "#000000d1",
     "editorLineNumber.fontSize": "12px",
@@ -144,7 +156,6 @@
 
     "editorGroup.border": "#000000",
     "editorGroup.dropBackground": "#000000"
-
   },
 
     "background.windowBackgrounds": [
@@ -229,6 +240,7 @@
     ],
     "material-ui-snippets.showNotesOnStartup": false,
     "editor.language.brackets": [
+      
 
     ],
 "editor.colorDecorators": true,
@@ -241,6 +253,7 @@
   "Center Center"
 ],
 "editor.codeActionsOnSave": {
+
 
 
 
@@ -270,8 +283,9 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.colorTheme": "Vivid Black",
   "vscode_custom_css.imports": [
-  "file:///D:/Projects/vsCustomizer/Color.css"
-],
+    "file:///D:/Projects/VScode-Customizer/themes/Color.css",
+    "file:///D:/Projects/VScode-Customizer/themes/custom-vscode.css"
+  ],
   "vscode_custom_css.policy": true,
 "background.editorBackgrounds": [],
 "php.problems.exclude": {},
@@ -308,11 +322,11 @@
 },
 "explorer.confirmDelete": false,
 "github.copilot.chat.codeGeneration.instructionsFiles": [".copilot/instructions.md"],
-    "markdown.validate.enabled": false,
-    "markdownlint.config": {
-        "default": true,
-        "MD001": false,  // disable header increment rule
-        "MD013": false,  // disable line length rule
+"markdown.validate.enabled": false,
+"markdownlint.config": {
+    "default": true,
+    "MD001": false,  // disable header increment rule
+    "MD013": false,  // disable line length rule
         "MD041": false ,  // disable first line should be header rule
         "MD032": false,  // blanks around lists
         "MD030":false,
@@ -330,7 +344,8 @@
         "MD042": false,
         "MD007":false,
         "MD024": false,
-        "MD047": false
+        "MD047": false,
+        "MD012": false
 
     },
     "markdownlint.lintWorkspaceGlobs": [],
@@ -348,8 +363,22 @@
     "git.confirmSync": false,
     "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
     "workbench.editor.enablePreview": false,
-    "mssql.autoDisableNonTSqlLanguageService": false
+    "mssql.autoDisableNonTSqlLanguageService": false,
+    "database-client.autoSync": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "editor.indentSize": "tabSize",
+    "chat.instructionsFilesLocations": {
+      ".github/instructions": true,
+      "C:\\Users\\lakin\\.aitk\\instructions\\": true
+    },
+    "geminicodeassist.project": "steel-journey-7hqw0",
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "chat.mcp.gallery.enabled": true,
+    "windowsaistudio.templateRef": ""
 }
+
+
 
 
 
