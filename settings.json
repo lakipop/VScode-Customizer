@@ -292,8 +292,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.colorTheme": "Vivid Black",
   "vscode_custom_css.imports": [
-    "file:///D:/Projects/VScode-Customizer/themes/Color.css",
-    "file:///D:/Projects/VScode-Customizer/themes/custom-vscode.css"
+    "file:///D:/Projects/VScode-Customizer/themes/Andromeda-theme.css"
   ],
   "vscode_custom_css.policy": true,
 "background.editorBackgrounds": [],

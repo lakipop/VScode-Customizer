@@ -69,7 +69,7 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
     color: #ffffff !important;
-    background-color: #333333;
+    background-color: #333333 !important;
 }
 
 /* Fix Gemini Code Assist chat text visibility */
