@@ -354,20 +354,15 @@
         "MD007":false,
         "MD024": false,
         "MD047": false,
-        "MD012": false
+        "MD012": false,
+        "MD025" :false,
+        "MD003": false,
+        "MD058":false
 
     },
     "markdownlint.lintWorkspaceGlobs": [],
     "dotnetAcquisitionExtension.existingDotnetPath": [
     
-    ],
-    // Use instructions files instead of inline 'github.copilot.chat.codeGeneration.instructions'.
-    // Move these rules into the file listed in "github.copilot.chat.codeGeneration.instructionsFiles" (for example: ".copilot/instructions.md").
-    "mssql.connectionGroups": [
-      {
-        "name": "ROOT",
-        "id": "693D793E-13E8-406D-B526-721726FA956A"
-      }
     ],
     "git.confirmSync": false,
     "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
@@ -382,9 +377,12 @@
       "C:\\Users\\lakin\\.aitk\\instructions\\": true
     },
     "geminicodeassist.project": "steel-journey-7hqw0",
-    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": true,
     "chat.mcp.gallery.enabled": true,
-    "windowsaistudio.templateRef": ""
+    "windowsaistudio.templateRef": "",
+    "chat.agent.thinkingStyle": "collapsedPreview",
+    "inlineChat.notebookAgent": true,
+    "inlineChat.lineEmptyHint": true
 }
 
 
