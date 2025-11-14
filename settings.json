@@ -79,7 +79,7 @@
     "sideBar.background": "#000000",
     "sideBar.fontSize": "14px", //  font size of the sidebar
     "sideBar.fontWeight": "600",
-    "sideBar.foreground": "#fffdfdc8",
+    "sideBar.foreground": "#fffdfde1",
     "sideBarSectionHeader.background": "#000000ae",
     "sideBarSectionHeader.foreground": "#f7f7f7",
     
@@ -94,10 +94,12 @@
     "tab.activeForeground": "#fff23dc5",  
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#f7f7f7",
-    "editor.background": "#0000005b",
-    
-    "editor.foreground": "#e0e0e0",
-     "editorWidget.background": "#1a1a1a",      // Extension panels background
+
+    "editor.background": "#000000aa",
+    "editor.foreground": "#dedede",
+     "editorWidget.background": "#dedede",      // Extension panels background
+     "editorHoverWidget.foreground": "#ffffff",
+     "editorHoverWidget.background": "#1a1a1a",
      
     "editorLineNumber.foreground": "#18ff2788",
     "editorLineNumber.background": "#000000d1",
@@ -178,7 +180,7 @@
       "folders": [
        
       ],
-        "opacity": 0.25,
+        "opacity": 0.2,
         "useFront": false,
         "size": "cover",
         "position": "center",
@@ -193,7 +195,6 @@
 
     "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
-    "easycode.model": "gpt-4o",
     "tabnine.experimentalAutoImports": true,
     "hediet.vscode-drawio.resizeImages": null,
     "background.backgroundOpacity": [
@@ -203,10 +204,10 @@
       0.1
     ],
     "background.backgroundBlur": [
-        "0",
-        "0",
-        "0",
-        "10"
+      "0",
+      "0",
+      "0",
+      "0"
     ],
     "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
     "editor.cursorStyle": "line",
@@ -292,7 +293,8 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.colorTheme": "Vivid Black",
   "vscode_custom_css.imports": [
-    "file:///D:/Projects/VScode-Customizer/themes/Andromeda-theme.css"
+    "file:///D:/Projects/VScode-Customizer/themes/Andromeda.css",
+    "file:///D:/Projects/VScode-Customizer/themes/custom-vscode.css"
   ],
   "vscode_custom_css.policy": true,
 "background.editorBackgrounds": [],
@@ -363,6 +365,7 @@
     "dotnetAcquisitionExtension.existingDotnetPath": [
     
     ],
+
     "git.confirmSync": false,
     "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
     "workbench.editor.enablePreview": false,
@@ -381,7 +384,8 @@
     "windowsaistudio.templateRef": "",
     "chat.agent.thinkingStyle": "collapsedPreview",
     "inlineChat.notebookAgent": true,
-    "inlineChat.lineEmptyHint": true
+    "inlineChat.lineEmptyHint": true,
+    "diffEditor.codeLens": true
 }
 
 

@@ -1,0 +1,120 @@
+/* DesertNight Theme */
+
+:root {
+    --charcoal: #264653;
+    --persian-green: #2a9d8f;
+    --saffron: #e9c46a;
+    --sandy-brown: #f4a261;
+    --burnt-sienna: #e76f51;
+
+    --background: #212121;
+    --foreground: #eeffff;
+
+    --focusBorder: var(--persian-green);
+    --widget-shadow: #1a1a1a;
+    --selection-background: var(--charcoal);
+    --errorForeground: var(--burnt-sienna);
+
+    --button-background: var(--persian-green);
+    --button-hoverBackground: #248a7f;
+    --dropdown-background: #2b2b2b;
+    --dropdown-border: var(--charcoal);
+    --input-background: #2b2b2b;
+    --input-placeholderForeground: #8a8a8a;
+    --inputOption-activeBorder: var(--persian-green);
+    --inputValidation-errorBackground: var(--burnt-sienna);
+    --inputValidation-errorBorder: var(--burnt-sienna);
+
+    --scrollbar-shadow: #1a1a1a;
+    --scrollbarSlider-activeBackground: var(--charcoal);
+    --scrollbarSlider-background: #3a3a3a;
+    --scrollbarSlider-hoverBackground: var(--charcoal);
+
+    --badge-background: var(--saffron);
+    --badge-foreground: var(--background);
+    --progressBar-background: var(--saffron);
+
+    --list-activeSelectionBackground: var(--charcoal);
+    --list-activeSelectionForeground: var(--saffron);
+    --list-dropBackground: #2b2b2b;
+    --list-focusBackground: var(--charcoal);
+    --list-focusForeground: var(--foreground);
+    --list-hoverBackground: #3a3a3a;
+    --list-hoverForeground: var(--foreground);
+    --list-inactiveSelectionBackground: #2b2b2b;
+    --list-inactiveSelectionForeground: var(--saffron);
+
+    --activityBar-background: #1a1a1a;
+    --activityBar-foreground: var(--foreground);
+    --activityBarBadge-background: var(--saffron);
+    --activityBarBadge-foreground: var(--background);
+
+    --sideBar-background: #1a1a1a;
+    --sideBarSectionHeader-background: #1a1a1a;
+    --sideBarTitle-foreground: var(--persian-green);
+    --sideBar-foreground: #aaaaaa;
+
+    --editorGroupHeader-tabsBackground: #1a1a1a;
+    --tab-activeBackground: #2b2b2b;
+    --tab-inactiveBackground: #1a1a1a;
+    --tab-activeForeground: var(--persian-green);
+    --tab-inactiveForeground: #8a8a8a;
+    --tab-activeBorder: var(--persian-green);
+
+    --editor-background: #2b2b2b;
+    --editor-foreground: var(--foreground);
+    --editorLineNumber-foreground: #5a5a5a;
+    --editorCursor-foreground: var(--saffron);
+    --editor-selectionBackground: var(--charcoal);
+    --editor-selectionHighlightBackground: #3a3a3a;
+    --editor-wordHighlightBackground: var(--persian-green);
+    --editor-findMatchBackground: var(--sandy-brown);
+    --editor-findMatchHighlightBackground: var(--saffron);
+    --editor-lineHighlightBackground: #3a3a3a;
+    --editorWhitespace-foreground: #4a4a4a;
+    --editorIndentGuide-background: #4a4a4a;
+    --editorIndentGuide-activeBackground: #6a6a6a;
+
+    --editorBracketMatch-background: var(--charcoal);
+    --editorBracketMatch-border: var(--charcoal);
+
+    --editorGutter-modifiedBackground: var(--sandy-brown);
+    --editorGutter-addedBackground: var(--persian-green);
+    --editorGutter-deletedBackground: var(--burnt-sienna);
+
+    --diffEditor-insertedTextBackground: #2a9d8f20;
+    --diffEditor-removedTextBackground: #e76f5120;
+
+    --editorWidget-background: #1a1a1a;
+    --editorSuggestWidget-background: #1a1a1a;
+    --editorSuggestWidget-border: var(--charcoal);
+    --editorSuggestWidget-selectedBackground: #3a3a3a;
+    --editorHoverWidget-background: #2b2b2b;
+    --editorHoverWidget-border: var(--persian-green);
+
+    --peekView-border: var(--persian-green);
+    --peekViewEditor-background: #1a1a1a;
+    --peekViewResult-background: #1a1a1a;
+    --peekViewTitle-background: #2b2b2b;
+
+    --panel-background: #2b2b2b;
+    --panel-border: #1a1a1a;
+    --panelTitle-activeBorder: var(--persian-green);
+    --panelTitle-inactiveForeground: #8a8a8a;
+
+    --statusBar-background: #1a1a1a;
+    --statusBar-debuggingBackground: var(--burnt-sienna);
+    --statusBar-noFolderBackground: #1a1a1a;
+    --statusBarItem-activeBackground: var(--persian-green);
+    --statusBarItem-hoverBackground: #248a7f;
+
+    --terminal-ansiRed: var(--burnt-sienna);
+    --terminal-ansiGreen: var(--persian-green);
+    --terminal-ansiYellow: var(--saffron);
+    --terminal-ansiBlue: #61afef;
+    --terminal-ansiMagenta: #c678dd;
+    --terminal-ansiCyan: var(--sandy-brown);
+    --terminalCursor-foreground: var(--saffron);
+
+    --titleBar-activeBackground: #1a1a1a;
+}

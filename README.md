@@ -1,6 +1,6 @@
 # VS Code Customizer 🎨
 
-A collection of beautiful and customizable themes for Visual Studio Code that enhance your coding experience. This repository contains 6 carefully crafted color schemes and settings to make your VS Code environment both aesthetically pleasing and functional.
+A collection of beautiful and customizable themes for Visual Studio Code that enhance your coding experience. This repository contains 9 carefully crafted color schemes and settings to make your VS Code environment both aesthetically pleasing and functional.
 
 Choose from modern neon themes, nature-inspired palettes, GitHub-style dark mode, night sky aesthetics, fire gradients, and deep forest themes. Each theme is designed with readability and visual appeal in mind.
 
@@ -116,6 +116,59 @@ Nature-inspired green gradient from dark forest to bright mindaro.
 - Natural green progression
 - Bright yellow-green highlights
 - Organic, layered design
+
+### 7. Andromeda.css - Galaxy Theme 🌌
+`themes/Andromeda.css`
+
+**Color Palette:**
+![#00e8c6](https://img.shields.io/badge/00e8c6-00e8c6?style=flat-square&logo=&logoColor=white)
+![#ff00aa](https://img.shields.io/badge/ff00aa-ff00aa?style=flat-square&logo=&logoColor=white)
+![#FFE66D](https://img.shields.io/badge/FFE66D-FFE66D?style=flat-square&logo=&logoColor=white)
+![#7cb7ff](https://img.shields.io/badge/7cb7ff-7cb7ff?style=flat-square&logo=&logoColor=white)
+![#ee5d43](https://img.shields.io/badge/ee5d43-ee5d43?style=flat-square&logo=&logoColor=white)
+![#96E072](https://img.shields.io/badge/96E072-96E072?style=flat-square&logo=&logoColor=white)
+
+A theme inspired by the Andromeda galaxy, with a dark background and vibrant, cosmic colors.
+
+- Dark, space-like background
+- Vibrant cyan, magenta, and yellow
+- Cosmic blue and green accents
+- High-contrast and readable
+
+### 8. EmeraldMatte.css - Green & Gold Theme 🌿
+`themes/EmeraldMatte.css`
+
+**Color Palette:**
+![#50c878](https://img.shields.io/badge/50c878-50c878?style=flat-square&logo=&logoColor=white)
+![#ffd700](https://img.shields.io/badge/ffd700-ffd700?style=flat-square&logo=&logoColor=white)
+![#87ceeb](https://img.shields.io/badge/87ceeb-87ceeb?style=flat-square&logo=&logoColor=white)
+![#3f3f46](https://img.shields.io/badge/3f3f46-3f3f46?style=flat-square&logo=&logoColor=white)
+![#a1a1aa](https://img.shields.io/badge/a1a1aa-a1a1aa?style=flat-square&logo=&logoColor=white)
+![#e4e4e7](https://img.shields.io/badge/e4e4e7-e4e4e7?style=flat-square&logo=&logoColor=white)
+
+A sophisticated theme with a matte finish, featuring emerald greens, gold yellows, and sky blue accents on a zinc background.
+
+- Matte zinc background
+- Emerald green and gold yellow highlights
+- Sky blue accents for a touch of color
+- Smooth and elegant look
+
+### 9. DesertNight.css - Desert Night Theme 🏜️
+`themes/DesertNight.css`
+
+**Color Palette:**
+![#264653](https://img.shields.io/badge/264653-264653?style=flat-square&logo=&logoColor=white)
+![#2a9d8f](https://img.shields.io/badge/2a9d8f-2a9d8f?style=flat-square&logo=&logoColor=white)
+![#e9c46a](https://img.shields.io/badge/e9c46a-e9c46a?style=flat-square&logo=&logoColor=white)
+![#f4a261](https://img.shields.io/badge/f4a261-f4a261?style=flat-square&logo=&logoColor=white)
+![#e76f51](https://img.shields.io/badge/e76f51-e76f51?style=flat-square&logo=&logoColor=white)
+
+A warm and inviting theme inspired by a desert at night, with a palette of charcoal, persian green, saffron, sandy brown, and burnt sienna.
+
+- Warm desert-inspired colors
+- Charcoal and persian green base
+- Saffron, sandy brown, and burnt sienna accents
+- Cozy and comfortable for coding
 
 ## Features
 

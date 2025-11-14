@@ -1,0 +1,133 @@
+/* EmeraldMatte Theme */
+
+:root {
+    --zinc-950: #18181b;
+    --zinc-900: #27272a;
+    --zinc-800: #3f3f46;
+    --zinc-700: #52525b;
+    --zinc-500: #71717a;
+    --zinc-400: #a1a1aa;
+    --zinc-200: #e4e4e7;
+    --zinc-100: #f4f4f5;
+
+    --sky-blue: #87ceeb;
+    --light-sky-blue: #add8e6;
+    --deep-sky-blue: #00bfff;
+
+    --emerald-green: #50c878;
+    --light-green: #90ee90;
+    --sea-green: #2e8b57;
+
+    --gold-yellow: #ffd700;
+    --khaki-yellow: #f0e68c;
+    --lemon-yellow: #fffacd;
+
+    --focusBorder: var(--sky-blue);
+    --foreground: var(--zinc-100);
+    --widget-shadow: var(--zinc-950);
+    --selection-background: var(--zinc-700);
+    --errorForeground: #e57373;
+
+    --button-background: var(--emerald-green);
+    --button-hoverBackground: var(--sea-green);
+    --dropdown-background: var(--zinc-900);
+    --dropdown-border: var(--zinc-800);
+    --input-background: var(--zinc-900);
+    --input-placeholderForeground: var(--zinc-500);
+    --inputOption-activeBorder: var(--sky-blue);
+    --inputValidation-errorBackground: #e57373;
+    --inputValidation-errorBorder: #e57373;
+
+    --scrollbar-shadow: var(--zinc-950);
+    --scrollbarSlider-activeBackground: var(--zinc-700);
+    --scrollbarSlider-background: var(--zinc-800);
+    --scrollbarSlider-hoverBackground: var(--zinc-700);
+
+    --badge-background: var(--deep-sky-blue);
+    --badge-foreground: var(--zinc-950);
+    --progressBar-background: var(--sky-blue);
+
+    --list-activeSelectionBackground: var(--zinc-800);
+    --list-activeSelectionForeground: var(--gold-yellow);
+    --list-dropBackground: var(--zinc-900);
+    --list-focusBackground: var(--zinc-700);
+    --list-focusForeground: var(--zinc-100);
+    --list-hoverBackground: var(--zinc-800);
+    --list-hoverForeground: var(--zinc-100);
+    --list-inactiveSelectionBackground: var(--zinc-900);
+    --list-inactiveSelectionForeground: var(--gold-yellow);
+
+    --activityBar-background: var(--zinc-950);
+    --activityBar-foreground: var(--zinc-200);
+    --activityBarBadge-background: var(--deep-sky-blue);
+    --activityBarBadge-foreground: var(--zinc-950);
+
+    --sideBar-background: var(--zinc-950);
+    --sideBarSectionHeader-background: var(--zinc-950);
+    --sideBarTitle-foreground: var(--emerald-green);
+    --sideBar-foreground: var(--zinc-400);
+
+    --editorGroupHeader-tabsBackground: var(--zinc-950);
+    --tab-activeBackground: var(--zinc-900);
+    --tab-inactiveBackground: var(--zinc-950);
+    --tab-activeForeground: var(--emerald-green);
+    --tab-inactiveForeground: var(--zinc-500);
+    --tab-activeBorder: var(--emerald-green);
+
+    --editor-background: var(--zinc-900);
+    --editor-foreground: var(--zinc-200);
+    --editorLineNumber-foreground: var(--zinc-700);
+    --editorCursor-foreground: var(--sky-blue);
+    --editor-selectionBackground: var(--zinc-800);
+    --editor-selectionHighlightBackground: var(--zinc-700);
+    --editor-wordHighlightBackground: var(--emerald-green);
+    --editor-findMatchBackground: var(--gold-yellow);
+    --editor-findMatchHighlightBackground: var(--light-sky-blue);
+    --editor-lineHighlightBackground: var(--zinc-800);
+    --editorWhitespace-foreground: var(--zinc-800);
+    --editorIndentGuide-background: var(--zinc-800);
+    --editorIndentGuide-activeBackground: var(--zinc-500);
+
+    --editorBracketMatch-background: var(--zinc-700);
+    --editorBracketMatch-border: var(--zinc-700);
+
+    --editorGutter-modifiedBackground: var(--light-sky-blue);
+    --editorGutter-addedBackground: var(--light-green);
+    --editorGutter-deletedBackground: #e57373;
+
+    --diffEditor-insertedTextBackground: #90ee9020;
+    --diffEditor-removedTextBackground: #e5737320;
+
+    --editorWidget-background: var(--zinc-950);
+    --editorSuggestWidget-background: var(--zinc-950);
+    --editorSuggestWidget-border: var(--zinc-800);
+    --editorSuggestWidget-selectedBackground: var(--zinc-800);
+    --editorHoverWidget-background: var(--zinc-900);
+    --editorHoverWidget-border: var(--sky-blue);
+
+    --peekView-border: var(--emerald-green);
+    --peekViewEditor-background: var(--zinc-950);
+    --peekViewResult-background: var(--zinc-950);
+    --peekViewTitle-background: var(--zinc-900);
+
+    --panel-background: var(--zinc-900);
+    --panel-border: var(--zinc-950);
+    --panelTitle-activeBorder: var(--emerald-green);
+    --panelTitle-inactiveForeground: var(--zinc-500);
+
+    --statusBar-background: var(--zinc-950);
+    --statusBar-debuggingBackground: #e57373;
+    --statusBar-noFolderBackground: var(--zinc-950);
+    --statusBarItem-activeBackground: var(--emerald-green);
+    --statusBarItem-hoverBackground: var(--sea-green);
+
+    --terminal-ansiRed: #e57373;
+    --terminal-ansiGreen: var(--emerald-green);
+    --terminal-ansiYellow: var(--gold-yellow);
+    --terminal-ansiBlue: var(--sky-blue);
+    --terminal-ansiMagenta: #ba68c8;
+    --terminal-ansiCyan: var(--deep-sky-blue);
+    --terminalCursor-foreground: var(--gold-yellow);
+
+    --titleBar-activeBackground: var(--zinc-950);
+}
