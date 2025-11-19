@@ -19,46 +19,46 @@
 .extension-editor div,
 .extension-editor pre,
 .extension-editor code {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 /* Extension webview content */
 .webview .monaco-workbench .part.editor > .content .editor-group-container > .editor-group > .editor-container .webview-content,
 .webview iframe,
 .webview body {
-  background: #000000 !important;
-  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.9) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 /* Extension details page background */
 .extension-editor {
-  background: #000000 !important;
+  background: rgba(0, 0, 0, 0.9) !important;
 }
 
 /* Links in extension description */
 .extension-editor a {
-  color: #3b82f6 !important;
+  color: rgba(59, 130, 246, 0.9) !important;
 }
 
 /* Code blocks in extension description */
 .extension-editor code,
 .extension-editor pre code {
-  background: #1a1a1a !important;
-  color: #22c55e !important;
-  border: 1px solid #333333 !important;
+  background: rgba(26, 26, 26, 0.9) !important;
+  color: rgba(34, 197, 94, 0.9) !important;
+  border: 1px solid rgba(51, 51, 51, 0.9) !important;
 }
 
 /* Marketplace sidebar extension list */
 .extensions-list .monaco-list-row {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .extensions-list .monaco-list-row .name {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .extensions-list .monaco-list-row .description {
-  color: #cccccc !important;
+  color: rgba(204, 204, 204, 0.9) !important;
 }
 
 p {
@@ -68,8 +68,8 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    color: #ffffff !important;
-    background-color: #333333 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    background-color: rgba(51, 51, 51, 0.9) !important;
 }
 
 /* Fix Gemini Code Assist chat text visibility */

@@ -4,52 +4,36 @@
 /* ====== MONACO EDITOR SYNTAX COLORS ====== */
 /* Keywords - Strong Forest Green */
 .mtk1 { color: #329a37; }
-
 /* Strings - Fresh Grass Green */
 .mtk2 { color: #53c057; }
-
 /* Comments - Sage Green with mild opacity */
 .mtk3 { color: rgba(139, 195, 74, 0.8); }
-
 /* Numbers - Warm Oak Brown */
 .mtk4 { color: #8D6E63; }
-
 /* Functions - Lake Teal Blue */
 .mtk5 { color: #1aa3937a; }
-
 /* Variables - Nature Lake Blue */
 .mtk6 { color: #0277BD; }
-
 /* Operators - Deep Oak */
 .mtk7 { color: #5D4037; }
-
 /* Types - Pine Green */
 .mtk8 { color: #1B5E20; }
-
 /* Control Keywords - Autumn Orange */
 .mtk9 { color: #FF8F00; }
-
 /* Brackets/Punctuation - Stone Blue */
 .mtk10 { color: #789eaf; }
-
 /* Classes - Emerald Teal */
 .mtk11 { color: #00796B; }
-
 /* Methods - Lake Cyan */
 .mtk12 { color: #0097A7; }
-
 /* Constants - Golden Yellow */
 .mtk13 { color: #ffcf55; }
-
 /* Parameters - Spring Green */
 .mtk14 { color: #689F38; }
-
 /* Regex - Warm Sunset Orange */
 .mtk15 { color: #F57C00; }
-
 /* Decorators - Nature Rose */
 .mtk16 { color: #C2185B; }
-
 /* Additional vibrant nature tokens */
 .mtk17 { color: #7CB342; } /* Light Forest */
 .mtk18 { color: #388E3C; } /* Deep Grass */
