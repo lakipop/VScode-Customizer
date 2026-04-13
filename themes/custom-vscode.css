@@ -1,4 +1,4 @@
-/* Custom CSS to fix extension marketplace text visibility */
+/* Custom CSS to fix extension marketplace and AI chat text visibility */
 
 /* Force white text color for all extension description content */
 .extension-editor .monaco-editor,
@@ -22,12 +22,13 @@
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
-/* Extension webview content */
-.webview .monaco-workbench .part.editor > .content .editor-group-container > .editor-group > .editor-container .webview-content,
-.webview iframe,
-.webview body {
+/* Extension webview content and global list visibility */
+.monaco-workbench .webview-container,
+.monaco-workbench .webview,
+.monaco-workbench .webview body,
+.monaco-list-row {
   background: rgba(0, 0, 0, 0.9) !important;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--vscode-foreground) !important;
 }
 
 /* Extension details page background */
@@ -61,35 +62,45 @@
   color: rgba(204, 204, 204, 0.9) !important;
 }
 
-p {
+/* Scoped paragraph color for extension editor only */
+.extension-editor p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
     color: rgba(255, 255, 255, 0.9) !important;
-    background-color: rgba(51, 51, 51, 0.9) !important;
 }
 
-/* Fix Gemini Code Assist chat text visibility */
+/* Fix Gemini, Antigravity, and General AI Chat text visibility */
 .interactive-session .interactive-item-container p,
 .interactive-session .interactive-item-container .markdown-body p,
 .interactive-session .interactive-item-container span,
 .interactive-session .interactive-item-container div,
 .interactive-session .interactive-item-container li,
-.interactive-session .interactive-item-container code {
-  color: inherit !important;
+.interactive-session .interactive-item-container code,
+.chat-container p, 
+.chat-container span, 
+.chat-container div, 
+.chat-container li,
+.message-bubble p,
+.message-content p,
+.assistant-message p,
+.user-message p,
+.chat-message p,
+.cline-message-content p,
+.cline-message-bubble p {
+  color: var(--vscode-foreground, #ffffff) !important;
 }
 
-/* Ensure Gemini response text is visible */
-.interactive-session .interactive-response p {
-  color: var(--vscode-foreground) !important;
+/* Ensure response text is always visible */
+.interactive-session .interactive-response p,
+.chat-response p,
+.assistant-response p {
+  color: var(--vscode-foreground, #ffffff) !important;
 }
 
-/* Fix Gemini Code Assist specific elements */
+/* Fix specific AI Chat elements to avoid hidden text */
 .chat-widget .interactive-item-container p,
 .chat-widget .value p {
-  color: var(--vscode-foreground) !important;
+  color: var(--vscode-foreground, #ffffff) !important;
   background: transparent !important;
 }
