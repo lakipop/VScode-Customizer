@@ -23,12 +23,22 @@
 }
 
 /* Extension webview content and global list visibility */
+/* Aggressive fix for all webviews (Marketplace, Quota Monitor, etc.) */
 .monaco-workbench .webview-container,
 .monaco-workbench .webview,
 .monaco-workbench .webview body,
+.monaco-workbench .webview html,
+.webview-container iframe,
+.webview-container *,
 .monaco-list-row {
-  background: rgba(0, 0, 0, 0.9) !important;
-  color: var(--vscode-foreground) !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+/* Ensure images and specific badges stay visible */
+.webview-container img {
+  opacity: 1 !important;
 }
 
 /* Extension details page background */
@@ -64,10 +74,10 @@
 
 /* Scoped paragraph color for extension editor only */
 .extension-editor p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    color: rgba(255, 255, 255, 0.9) !important;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 /* Fix Gemini, Antigravity, and General AI Chat text visibility */
@@ -77,9 +87,9 @@
 .interactive-session .interactive-item-container div,
 .interactive-session .interactive-item-container li,
 .interactive-session .interactive-item-container code,
-.chat-container p, 
-.chat-container span, 
-.chat-container div, 
+.chat-container p,
+.chat-container span,
+.chat-container div,
 .chat-container li,
 .message-bubble p,
 .message-content p,

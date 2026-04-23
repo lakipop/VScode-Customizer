@@ -8,25 +8,21 @@
         }
       }
     ]
-},
-
-  "markdown.preview.theme": "dark",
+  },
+  // "markdown.preview.theme": "dark",
   "markdown.styles": [
-      ".vscode/markdown-dark.css"
+    "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-dark.min.css"
   ],
   "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
   "livePreview.defaultPreviewPath": "/README.md",
   "workbench.startupEditor": "newUntitledFile",
-
-    "workbench.iconTheme": "symbols",
-
+  "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
     // Dialog & Modal Windows (Connection Dialog, etc.)
     "dialog.background": "#1a1a1a",
     "dialog.foreground": "#ffffff",
     "quickInput.background": "#1a1a1a",
     "quickInput.list.background": "#1a1a1a",
-    
     // Input Fields & Labels - FIX for MySQL connection dialog
     "input.background": "#0a0a0a",
     "input.foreground": "#ffffff",
@@ -34,16 +30,21 @@
     "input.placeholderForeground": "#888888",
     "inputOption.activeForeground": "#ffffff",
     "inputValidation.infoForeground": "#ffffff",
-    
     // Labels in dialogs (e.g., "Profile Name", "Host", etc.)
     "settings.headerForeground": "#ffffff",
     "settings.modifiedItemIndicator": "#22c55e",
     "editorWidget.foreground": "#ffffff",
-   "dropdown.foreground": "#8aea8f",
+    "list.foreground": "#ffffff",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.focusForeground": "#ffffff",
+    "list.deemphasizedForeground": "#ffffff", // Fix for "faded" list items
+    "list.errorForeground": "#ff5555",
+    "list.warningForeground": "#ffaa00",
+    "dropdown.foreground": "#8aea8f",
     "list.activeSelectionIconForeground": "#4ad651",
     "list.focusAndSelectionOutline": "#C2185B",
     "pickerGroup.foreground": "#2E7D32",
-    
     // Extension View - FIX for extension reader interface
     "extensionButton.prominentBackground": "#22c55e",
     "extensionButton.prominentForeground": "#ffffff",
@@ -52,26 +53,24 @@
     "extensionIcon.verifiedForeground": "#3b82f6",
     "extensionBadge.remoteBackground": "#1e40af",
     "extensionBadge.remoteForeground": "#ffffff",
-    
     // Extension Details Page - Fix for text visibility with background image
-    "extensionEditor.background": "#000000",    // Solid black background (blocks image)
-    "descriptionForeground": "#ffffff",         // White text for descriptions
-    
-    // Webview styling for extension descriptions (blocks background image)
-    "webview.background": "#000000",            // Solid black for webviews
-    
+    "extensionEditor.background": "#00000080",
+    "webview.background": "#00000000",
+    "foreground": "#ffffff", // Pure white global foreground
+    "descriptionForeground": "#ffffff", // White text for descriptions
+    "widget.foreground": "#ffffff",
+    "quickInput.foreground": "#ffffff",
+    "quickInputList.focusIconForeground": "#C2185B",
     // Text and code blocks in extension description
     "textBlockQuote.background": "#1a1a1a",
     "textBlockQuote.border": "#444444",
-    "textBlockQuote.foreground": "#ffffff",     // Force white text in quotes
+    "textBlockQuote.foreground": "#ffffff", // Force white text in quotes
     "textCodeBlock.background": "#1a1a1a",
-    "textCodeBlock.foreground": "#ffffff",      // Force white text in code blocks
-    "textLink.foreground": "#3b82f6",
-    "textLink.activeForeground": "#60a5fa",
+    "textCodeBlock.foreground": "#ffffff", // Force white text in code blocks
+    "textLink.foreground": "#ffffff",
+    "textLink.activeForeground": "#ffffff",
     "textPreformat.foreground": "#ffffff",
     "textSeparator.foreground": "#444444",
-    "quickInput.foreground": "#ffffff",
-    "quickInputList.focusIconForeground": "#C2185B",
     "activityBar.background": "#000000",
     "activityBar.foreground": "#51c608",
     "activityBarBadge.background": "#001506",
@@ -82,32 +81,28 @@
     "sideBar.foreground": "#fffdfde1",
     "sideBarSectionHeader.background": "#000000ae",
     "sideBarSectionHeader.foreground": "#f7f7f7",
-    
     // Extension sidebar list items - better visibility
     "list.hoverBackground": "#1a1a1a",
     "list.hoverForeground": "#ffffff",
-    
     "editorGroup.background": "#070a07ae",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGroupHeader.tabsBorder": "#030303",
     "tab.activeBackground": "#000000",
-    "tab.activeForeground": "#fff23dc5",  
+    "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#000000",
-    "tab.inactiveForeground": "#f7f7f7",
-
-    "editor.background": "#000000a0",
+    "tab.inactiveForeground": "#ffffff",
+    "editor.background": "#000000d0", // Increased opacity for better text contrast
     "editor.foreground": "#dedede",
-     "editorWidget.background": "#dedede",      // Extension panels background
-     "editorHoverWidget.foreground": "#ffffff",
-     "editorHoverWidget.background": "#1a1a1a",
-     
+    "editorWidget.background": "#0a0a0a", // Consistent dark background for extension panels
+    "editorHoverWidget.foreground": "#ffffff",
+    "editorHoverWidget.background": "#1a1a1a",
     "editorLineNumber.foreground": "#18ff2788",
     "editorLineNumber.background": "#000000d1",
     "editorLineNumber.fontSize": "12px",
     "editorLineNumber.commentForeground": "#00ff00",
     "editorLineNumber.activeBackground": "#000000d1",
-    "editorLineNumber.activeFontSize": "14px", 
-    "editor.commentForeground":  "#f7f7f7",
+    "editorLineNumber.activeFontSize": "14px",
+    "editor.commentForeground": "#f7f7f7",
     "editorLineNumber.activeForeground": "#ff006a9d",
     "editorCursor.foreground": "#00ff55",
     "editor.selectionBackground": "#a4a4a42a",
@@ -131,16 +126,15 @@
     "menubar.selectionBackground": "#000000",
     "menu.foreground": "#ffffff",
     "menu.selectionBackground": "#2d5a2d",
-    "menu.selectionForeground": "#ffffff",  
+    "menu.selectionForeground": "#ffffff",
     "panel.background": "#000000",
     "panel.border": "#686b64",
+    "panel.foreground": "#ffffff",
     "panelTitle.activeBorder": "#000000",
     "panelTitle.activeBorderTop": "#000000",
     "panelTitle.activeBorderTopBottom": "#000000",
-    "panelTitle.activeForeground": "#f7f7f7cb",
-    "panelTitle.inactiveForeground": "#f4f4f49c",
-
-
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.inactiveForeground": "#ffffff",
     "terminal.background": "#000000e6",
     "terminal.foreground": "#d8c8b6E6",
     "terminal.ansiBlack": "#3c3836E6",
@@ -155,125 +149,112 @@
     "terminal.ansiBrightRed": "#fb4934E6",
     "statusBar.background": "#3c3836E6",
     "statusBar.foreground": "#d8c8b6E6",
-
     "editorGroup.border": "#000000",
     "editorGroup.dropBackground": "#000000",
-
     // Inside workbench.colorCustomizations:
     "chat.requestBackground": "#1a1a1a",
     "chat.requestForeground": "#ffffff",
-    "chat.responseBackground": "#0a0a0a", 
+    "chat.responseBackground": "#0a0a0a",
     "chat.responseForeground": "#e0e0e0",
     "interactive.activeCodeBorder": "#22c55e",
-    "interactive.inactiveCodeBorder": "#444444",
-
+    "interactive.inactiveCodeBorder": "#444444"
   },
-
-    "background.windowBackgrounds": [
-      "d:/Pictures/Wallhaven 24/**"
-    ],
-    
-    "background.fullscreen": {
-      "images": [
-       
-      ] ,
-      "folders": [
-       
-      ],
-        "opacity": 0.2,
-        "useFront": false,
-        "size": "cover",
-        "position": "center",
-        "interval": 10,
-        "random": false
+  "background.windowBackgrounds": [
+    "d:/Pictures/Wallhaven 22/**",
+    "d:/Pictures/Wallhaven 24/**"
+  ],
+  "background.editor": {},
+  "background.fullscreen": {
+    "useFront": true,
+    "style": {
+      "background-position": "100% 100%",
+      "background-size": "auto",
+      "opacity": 0.1
     },
-    
-    
-      // `sidebar` and `panel` have the same config as `fullscreen`
+    "styles": [
+      {},
+      {},
+      {}
+    ],
+    "images": [
+      "d:/Pictures/Wallhaven 22/",
+      "d:/Pictures/Wallhaven 24/"
+    ],
+    "folders": [],
+    "opacity": 0.1,
+    "size": "cover",
+    "position": "center",
+    "interval": 30,
+    "random": false
+  },
+  // `sidebar` and `panel` have the same config as `fullscreen`
   "background.sidebar": {},
   "background.panel": {},
-
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.enabled": false,
-    "tabnine.experimentalAutoImports": true,
-    "hediet.vscode-drawio.resizeImages": null,
-    "background.backgroundOpacity": [
-      0.2,
-      0.3,
-      0.1,
-      0.1
-    ],
-    "background.backgroundBlur": [
-      "0",
-      "0",
-      "0",
-      "0"
-    ],
-    "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
-    "editor.cursorStyle": "line",
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorWidth": 3,
-    "editor.cursorSurroundingLinesStyle": "all",
-    "editor.cursorSurroundingLines": 3,  // Reduces vertical cursor padding
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.fontFamily": "Cascadia Mono', 'Consolas', 'Courier New' ",
-    "editor.fontSize": 15,
-    "editor.fontLigatures": true,
-    "editor.letterSpacing": -0.5,
-    "editor.lineHeight": 19,
-    //"editor.wordWrap": "on",
-    "editor.fontWeight": "350",
-    
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.fontWeight":400,
-    "terminal.integrated.fontFamily": "Roboto",
-    "terminal.integrated.lineHeight": 1,
-
-    "window.autoDetectHighContrast": false,
-    "redhat.telemetry.enabled": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "php.validate.executablePath": "",
-    "lldb.suppressUpdateNotifications": true,
-    "editor.dropIntoEditor.preferences": [
-
-
-
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "tabnine.experimentalAutoImports": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "background.backgroundOpacity": [
+    0.2,
+    0.3,
+    0.1,
+    0.1
+  ],
+  "background.backgroundBlur": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  // "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.cursorSurroundingLines": 3, // Reduces vertical cursor padding
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.fontFamily": "Cascadia Mono', 'Consolas', 'Courier New' ",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": -0.5,
+  "editor.lineHeight": 19,
+  //"editor.wordWrap": "on",
+  "editor.fontWeight": "350",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.lineHeight": 1,
+  "window.autoDetectHighContrast": false,
+  "redhat.telemetry.enabled": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "php.validate.executablePath": "",
+  "lldb.suppressUpdateNotifications": true,
+  "editor.dropIntoEditor.preferences": [
     "text.plain"
-    ],
-    "background.backgroundChangeTime": [
-      30,
-      30,
-      30,
-      0
-    ],
-    "material-ui-snippets.showNotesOnStartup": false,
-    "editor.language.brackets": [
-      
-
-    ],
-"editor.colorDecorators": true,
-"editor.semanticTokenColorCustomizations": {},
-"background.backgroundAlignment": [
-
-  "Top Center",
-  "Center Center",
-  "Center Center",
-  "Center Center"
-],
-"editor.codeActionsOnSave": {
-
-
-
-
-
-},
-
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  ],
+  "background.backgroundChangeTime": [
+    30,
+    30,
+    30,
+    0
+  ],
+  "material-ui-snippets.showNotesOnStartup": false,
+  "editor.language.brackets": [],
+  "editor.colorDecorators": true,
+  "editor.semanticTokenColorCustomizations": {},
+  "background.backgroundAlignment": [
+    "Top Center",
+    "Center Center",
+    "Center Center",
+    "Center Center"
+  ],
+  "editor.codeActionsOnSave": {},
+  // // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[javascript]": {
+  //     //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
   "background.backgroundSize": [
     "Cover",
     "Cover",
@@ -282,7 +263,7 @@
   ],
   "background.sidebarBackgrounds": [],
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "background.autoInstall": false,
+  "background.autoInstall": true,
   "gitlens.graph.minimap.additionalTypes": [
     "localBranches",
     "stashes",
@@ -290,111 +271,120 @@
     "remoteBranches",
     "tags"
   ],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Vivid Black",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.colorTheme": "Andromeda",
   "vscode_custom_css.imports": [
     "file:///D:/Projects/VScode-Customizer/themes/Color.css",
     "file:///D:/Projects/VScode-Customizer/themes/custom-vscode.css"
   ],
   "vscode_custom_css.policy": true,
-"background.editorBackgrounds": [],
-"php.problems.exclude": {},
-"githubPullRequests.pullBranch": "never",
-"git.autofetch": true,
-"gitlens.ai.model": "vscode",
-"gitlens.ai.vscode.model": "copilot:claude-sonnet-4",
-"git.enableSmartCommit": true,
-"github.copilot.nextEditSuggestions.enabled": true,
-"chat.tools.terminal.autoApprove": {
-  "npm run dev": {
-    "approve": true,
-    "matchCommandLine": true
+  "background.editorBackgrounds": [],
+  "php.problems.exclude": {},
+  "githubPullRequests.pullBranch": "never",
+  "git.autofetch": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:claude-sonnet-4",
+  "git.enableSmartCommit": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.tools.terminal.autoApprove": {
+    "npm run dev": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "npm run build": true,
+    "'PY'": true
   },
-  "npm run build": true,
-  "'PY'": true
-},
-"terminal.integrated.suggest.enabled": true,
-"[markdown]": {
-
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.wordWrap": "on",
-  "editor.quickSuggestions": {
-    "comments": "off",
-    "strings": "off",
-    "other": "off"
-  }
-},
-"github.copilot.enable": {
-  "*": true,
-  "plaintext": false,
-  "markdown": true,
-  "scminput": false
-},
-"explorer.confirmDelete": false,
-"github.copilot.chat.codeGeneration.instructionsFiles": [".copilot/instructions.md"],
-"markdown.validate.enabled": false,
-"markdownlint.config": {
+  "terminal.integrated.suggest.enabled": true,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "explorer.confirmDelete": false,
+  "github.copilot.chat.codeGeneration.instructionsFiles": [
+    ".copilot/instructions.md"
+  ],
+  "markdown.validate.enabled": false,
+  "markdownlint.config": {
     "default": true,
-    "MD001": false,  // disable header increment rule
-    "MD013": false,  // disable line length rule
-        "MD041": false ,  // disable first line should be header rule
-        "MD032": false,  // blanks around lists
-        "MD030":false,
-        "MD031": false,   // blanks around fenced code blocks
-        "MD022": false,   // headers should be surrounded by blank lines
-        "MD040": false,
-        "MD029": false,
-        "MD036": false, 
-        "MD009": false,
-        "MD026": false,
-        "MD046": false,
-        "MD034": false,
-        "MD051": false,
-        "MD033": false,
-        "MD042": false,
-        "MD007":false,
-        "MD024": false,
-        "MD047": false,
-        "MD012": false,
-        "MD025" :false,
-        "MD003": false,
-        "MD058":false
-
-    },
-    "markdownlint.lintWorkspaceGlobs": [],
-    "dotnetAcquisitionExtension.existingDotnetPath": [
-    
+    "MD001": false, // disable header increment rule
+    "MD013": false, // disable line length rule
+    "MD041": false, // disable first line should be header rule
+    "MD032": false, // blanks around lists
+    "MD030": false,
+    "MD031": false, // blanks around fenced code blocks
+    "MD022": false, // headers should be surrounded by blank lines
+    "MD040": false,
+    "MD029": false,
+    "MD036": false,
+    "MD009": false,
+    "MD026": false,
+    "MD046": false,
+    "MD034": false,
+    "MD051": false,
+    "MD033": false,
+    "MD042": false,
+    "MD007": false,
+    "MD024": false,
+    "MD047": false,
+    "MD012": false,
+    "MD025": false,
+    "MD003": false,
+    "MD058": false
+  },
+  "markdownlint.lintWorkspaceGlobs": [],
+  "dotnetAcquisitionExtension.existingDotnetPath": [],
+  "git.confirmSync": false,
+  "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
+  "workbench.editor.enablePreview": false,
+  "mssql.autoDisableNonTSqlLanguageService": false,
+  "database-client.autoSync": true,
+  "python.terminal.activateEnvironment": false,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.experiments.enabled": false,
+  "editor.indentSize": "tabSize",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  },
+  "geminicodeassist.project": "steel-journey-7hqw0",
+  "geminicodeassist.inlineSuggestions.enableAuto": true,
+  "chat.mcp.gallery.enabled": true,
+  "windowsaistudio.templateRef": "",
+  "chat.agent.thinkingStyle": "collapsedPreview",
+  "inlineChat.notebookAgent": true,
+  "inlineChat.lineEmptyHint": true,
+  "diffEditor.codeLens": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    " ": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.useAgentSkills": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
     ],
-
-    "git.confirmSync": false,
-    "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
-    "workbench.editor.enablePreview": false,
-    "mssql.autoDisableNonTSqlLanguageService": false,
-    "database-client.autoSync": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
-    "python.terminal.activateEnvironment": true,
-    "editor.indentSize": "tabSize",
-    "chat.instructionsFilesLocations": {
-      ".github/instructions": true,
-      "C:\\Users\\lakin\\.aitk\\instructions\\": true
-    },
-    "geminicodeassist.project": "steel-journey-7hqw0",
-    "geminicodeassist.inlineSuggestions.enableAuto": true,
-    "chat.mcp.gallery.enabled": true,
-    "windowsaistudio.templateRef": "",
-    "chat.agent.thinkingStyle": "collapsedPreview",
-    "inlineChat.notebookAgent": true,
-    "inlineChat.lineEmptyHint": true,
-    "diffEditor.codeLens": true,
-    "editor.unicodeHighlight.allowedCharacters": {
-      " ": true
-    },
-    "chat.agent.maxRequests": 40
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "chat.viewSessions.orientation": "stacked",
+  "background.renderContentAboveBackground": true,
+  "background.enabled": true,
+  "python.languageServer": "None",
+  "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
-
-
-
-
-
