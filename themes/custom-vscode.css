@@ -30,10 +30,23 @@
 .monaco-workbench .webview html,
 .webview-container iframe,
 .webview-container *,
-.monaco-list-row {
+.monaco-list-row,
+.monaco-button,
+.monaco-text-button {
   background: transparent !important;
   background-color: transparent !important;
   color: #ffffff !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8) !important; /* Improved contrast on image backgrounds */
+}
+
+/* Ensure buttons in webviews are still visible */
+.webview-container button, 
+.webview-container .button,
+.webview-container a.button {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 2px 8px !important;
+    border-radius: 4px !important;
 }
 
 /* Ensure images and specific badges stay visible */
@@ -97,20 +110,52 @@
 .user-message p,
 .chat-message p,
 .cline-message-content p,
-.cline-message-bubble p {
-  color: var(--vscode-foreground, #ffffff) !important;
+.cline-message-bubble p,
+.chat-widget p,
+.chat-widget span,
+.chat-widget div {
+  color: #ffffff !important;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Ensure response text is always visible */
 .interactive-session .interactive-response p,
 .chat-response p,
-.assistant-response p {
-  color: var(--vscode-foreground, #ffffff) !important;
+.assistant-response p,
+.monaco-tokenized-source {
+  color: #ffffff !important;
 }
 
 /* Fix specific AI Chat elements to avoid hidden text */
 .chat-widget .interactive-item-container p,
 .chat-widget .value p {
-  color: var(--vscode-foreground, #ffffff) !important;
+  color: #ffffff !important;
   background: transparent !important;
 }
+
+/* Global Fix for low-visibility descriptions and labels */
+.description, 
+.label, 
+.secondary-label,
+.monaco-icon-label .label-description,
+.monaco-action-bar .action-label,
+.monaco-list-row .label-name,
+.monaco-list-row .label-description {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Nuclear Visibility Fix for Webviews & Extension Windows */
+.webview-container *, 
+.extension-editor *,
+.interactive-session *,
+.chat-widget-container * {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1) !important;
+    opacity: 1 !important;
+}
+
+/* Preserve specific colors for badges and links */
+.webview-container a { color: #4dabf7 !important; }
+.webview-container .badge { color: #ffffff !important; }
+.webview-container img { opacity: 1 !important; }

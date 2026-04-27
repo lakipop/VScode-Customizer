@@ -54,11 +54,13 @@
     "extensionBadge.remoteBackground": "#1e40af",
     "extensionBadge.remoteForeground": "#ffffff",
     // Extension Details Page - Fix for text visibility with background image
-    "extensionEditor.background": "#00000080",
-    "webview.background": "#00000000",
-    "foreground": "#ffffff", // Pure white global foreground
-    "descriptionForeground": "#ffffff", // White text for descriptions
+    "extensionEditor.background": "#000000f0",
+    "webview.background": "#000000f0",
+    "webview.foreground": "#ffffff",
+    "foreground": "#ffffff", 
+    "descriptionForeground": "#ffffff", 
     "widget.foreground": "#ffffff",
+    "widget.border": "#444444",
     "quickInput.foreground": "#ffffff",
     "quickInputList.focusIconForeground": "#C2185B",
     // Text and code blocks in extension description
@@ -91,11 +93,12 @@
     "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#ffffff",
-    "editor.background": "#000000d0", // Increased opacity for better text contrast
-    "editor.foreground": "#dedede",
-    "editorWidget.background": "#0a0a0a", // Consistent dark background for extension panels
+    "editor.background": "#000000f0", // High opacity for absolute readability
+    "editor.foreground": "#ffffff",
+    "editorWidget.background": "#0f0f0f", // Darker, more solid background for popups
+    "editorWidget.border": "#22c55e",
     "editorHoverWidget.foreground": "#ffffff",
-    "editorHoverWidget.background": "#1a1a1a",
+    "editorHoverWidget.background": "#0a0a0a",
     "editorLineNumber.foreground": "#18ff2788",
     "editorLineNumber.background": "#000000d1",
     "editorLineNumber.fontSize": "12px",
@@ -152,10 +155,10 @@
     "editorGroup.border": "#000000",
     "editorGroup.dropBackground": "#000000",
     // Inside workbench.colorCustomizations:
-    "chat.requestBackground": "#1a1a1a",
+    "chat.requestBackground": "#0f0f0f",
     "chat.requestForeground": "#ffffff",
-    "chat.responseBackground": "#0a0a0a",
-    "chat.responseForeground": "#e0e0e0",
+    "chat.responseBackground": "#050505",
+    "chat.responseForeground": "#ffffff",
     "interactive.activeCodeBorder": "#22c55e",
     "interactive.inactiveCodeBorder": "#444444"
   },
