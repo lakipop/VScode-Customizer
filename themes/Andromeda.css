@@ -157,6 +157,7 @@
 .activitybar {
     background-color: var(--activityBar-background);
 }
+
 .activitybar .monaco-action-bar .action-item .action-label {
     color: var(--activityBar-foreground);
 }
@@ -166,6 +167,7 @@
     background-color: var(--sideBar-background);
     color: var(--sideBar-foreground);
 }
+
 .sidebar .monaco-list-row {
     color: var(--sideBar-foreground);
 }
@@ -183,14 +185,58 @@
 }
 
 /* Token Colors */
-.mtk1 { color: #D5CED9; } /* Default */
-.mtk5 { color: #A0A1A7cc; } /* Comment */
-.mtk7 { color: #00e8c6; } /* Variable, Cyan */
-.mtk4 { color: #f39c12; } /* Numeric, Orange */
-.mtk11 { color: #FFE66D; } /* Function, Yellow */
-.mtk8 { color: #ff00aa; } /* this, Pink */
-.mtk6 { color: #f92672; } /* Tag, Hot Pink */
-.mtk9 { color: #c74ded; } /* Keyword, Purple */
-.mtk12 { color: #7cb7ff; } /* Regexp, Blue */
-.mtk3 { color: #ee5d43; } /* Constant, Red */
-.mtk2 { color: #96E072; } /* String, Green */
+.mtk1 {
+    color: #D5CED9;
+}
+
+/* Default */
+.mtk5 {
+    color: #A0A1A7cc;
+}
+
+/* Comment */
+.mtk7 {
+    color: #00e8c6;
+}
+
+/* Variable, Cyan */
+.mtk4 {
+    color: #f39c12;
+}
+
+/* Numeric, Orange */
+.mtk11 {
+    color: #FFE66D;
+}
+
+/* Function, Yellow */
+.mtk8 {
+    color: #ff00aa;
+}
+
+/* this, Pink */
+.mtk6 {
+    color: #f92672;
+}
+
+/* Tag, Hot Pink */
+.mtk9 {
+    color: #c74ded;
+}
+
+/* Keyword, Purple */
+.mtk12 {
+    color: #7cb7ff;
+}
+
+/* Regexp, Blue */
+.mtk3 {
+    color: #ee5d43;
+}
+
+/* Constant, Red */
+.mtk2 {
+    color: #96E072;
+}
+
+/* String, Green */

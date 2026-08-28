@@ -1,6 +1,6 @@
-/* Custom CSS to fix extension marketplace and AI chat text visibility */
+/* Custom CSS - Soft Charcoal & Forest Oak Vibe Fix */
 
-/* Force white text color for all extension description content */
+/* Extension editor content styling */
 .extension-editor .monaco-editor,
 .extension-editor .body,
 .extension-editor .description,
@@ -16,90 +16,53 @@
 .extension-editor h6,
 .extension-editor li,
 .extension-editor span,
-.extension-editor div,
-.extension-editor pre,
-.extension-editor code {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
-/* Extension webview content and global list visibility */
-/* Aggressive fix for all webviews (Marketplace, Quota Monitor, etc.) */
-.monaco-workbench .webview-container,
-.monaco-workbench .webview,
-.monaco-workbench .webview body,
-.monaco-workbench .webview html,
-.webview-container iframe,
-.webview-container *,
-.monaco-list-row,
-.monaco-button,
-.monaco-text-button {
-  background: transparent !important;
-  background-color: transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8) !important; /* Improved contrast on image backgrounds */
-}
-
-/* Ensure buttons in webviews are still visible */
-.webview-container button, 
-.webview-container .button,
-.webview-container a.button {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
-    padding: 2px 8px !important;
-    border-radius: 4px !important;
-}
-
-/* Ensure images and specific badges stay visible */
-.webview-container img {
-  opacity: 1 !important;
+.extension-editor div {
+  color: #D8D2CA !important;
 }
 
 /* Extension details page background */
 .extension-editor {
-  background: rgba(0, 0, 0, 0.9) !important;
+  background: rgba(13, 14, 16, 0.95) !important;
 }
 
-/* Links in extension description */
-.extension-editor a {
-  color: rgba(59, 130, 246, 0.9) !important;
+/* Links & Code blocks */
+.extension-editor a,
+.webview-container a {
+  color: #7AA87B !important;
 }
 
-/* Code blocks in extension description */
 .extension-editor code,
 .extension-editor pre code {
-  background: rgba(26, 26, 26, 0.9) !important;
-  color: rgba(34, 197, 94, 0.9) !important;
-  border: 1px solid rgba(51, 51, 51, 0.9) !important;
+  background: rgba(18, 20, 23, 0.9) !important;
+  color: #8FC490 !important;
+  border: 1px solid rgba(46, 59, 47, 0.6) !important;
 }
 
-/* Marketplace sidebar extension list */
-.extensions-list .monaco-list-row {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
+/* Webviews & Sidebar Lists */
 .extensions-list .monaco-list-row .name {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: #EAE5DF !important;
 }
 
 .extensions-list .monaco-list-row .description {
-  color: rgba(204, 204, 204, 0.9) !important;
+  color: #8F8D88 !important;
 }
 
-/* Scoped paragraph color for extension editor only */
-.extension-editor p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  color: rgba(255, 255, 255, 0.9) !important;
+.webview-container button,
+.webview-container .button,
+.webview-container a.button {
+  background-color: rgba(110, 156, 109, 0.2) !important;
+  border: 1px solid rgba(110, 156, 109, 0.5) !important;
+  color: #EAE5DF !important;
+  padding: 2px 8px !important;
+  border-radius: 4px !important;
 }
 
-/* Fix Gemini, Antigravity, and General AI Chat text visibility */
+/* AI Chat Text Visibility (Grounded Soft Cream) */
 .interactive-session .interactive-item-container p,
 .interactive-session .interactive-item-container .markdown-body p,
 .interactive-session .interactive-item-container span,
 .interactive-session .interactive-item-container div,
 .interactive-session .interactive-item-container li,
-.interactive-session .interactive-item-container code,
 .chat-container p,
 .chat-container span,
 .chat-container div,
@@ -114,48 +77,26 @@
 .chat-widget p,
 .chat-widget span,
 .chat-widget div {
-  color: #ffffff !important;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5) !important;
+  color: #D8D2CA !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8) !important;
 }
 
-/* Ensure response text is always visible */
 .interactive-session .interactive-response p,
 .chat-response p,
-.assistant-response p,
-.monaco-tokenized-source {
-  color: #ffffff !important;
+.assistant-response p {
+  color: #EAE5DF !important;
 }
 
-/* Fix specific AI Chat elements to avoid hidden text */
-.chat-widget .interactive-item-container p,
-.chat-widget .value p {
-  color: #ffffff !important;
-  background: transparent !important;
-}
-
-/* Global Fix for low-visibility descriptions and labels */
-.description, 
-.label, 
+/* Labels and Secondary text */
+.description,
+.label,
 .secondary-label,
 .monaco-icon-label .label-description,
 .monaco-action-bar .action-label,
-.monaco-list-row .label-name,
+.monaco-list-row .label-name {
+  color: #D8D2CA !important;
+}
+
 .monaco-list-row .label-description {
-    color: #ffffff !important;
-    opacity: 1 !important;
+  color: #8F8D88 !important;
 }
-
-/* Nuclear Visibility Fix for Webviews & Extension Windows */
-.webview-container *, 
-.extension-editor *,
-.interactive-session *,
-.chat-widget-container * {
-    color: #ffffff !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1) !important;
-    opacity: 1 !important;
-}
-
-/* Preserve specific colors for badges and links */
-.webview-container a { color: #4dabf7 !important; }
-.webview-container .badge { color: #ffffff !important; }
-.webview-container img { opacity: 1 !important; }
